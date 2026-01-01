@@ -1,0 +1,915 @@
+lab:
+  description: ''
+  notes: ''
+  timestamp: 1613963972.3556602
+  title: 'CCNA Top Commands'
+  version: 0.0.4
+nodes:
+  - id: n0
+    label: ios-sw01
+    node_definition: iosvl2
+    x: -450
+    y: 150
+    configuration: |-
+      Building configuration...
+
+      Current configuration : 3922 bytes
+      !
+      ! Last configuration change at 02:12:17 UTC Thu Feb 25 2021
+      !
+      version 15.2
+      service timestamps debug datetime msec
+      service timestamps log datetime msec
+      no service password-encryption
+      service compress-config
+      !
+      hostname ios-sw01
+      !
+      boot-start-marker
+      boot-end-marker
+      !
+      !
+      no logging console
+      !
+      no aaa new-model
+      !
+      !
+      !
+      !
+      !
+      vtp mode transparent
+      !
+      !
+      !
+      ip cef
+      no ipv6 cef
+      !
+      !
+      !
+      spanning-tree mode pvst
+      spanning-tree extend system-id
+      !
+      !
+      vlan 10
+       name Native VLAN
+      !
+      vlan 75
+       name Management
+      !
+      vlan 125
+       name Desktop
+      !
+      vlan 135
+       name Voice
+      !
+      vlan 150
+       name Servers
+      lldp run
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      interface GigabitEthernet0/0
+       description Link to ios-sw02
+       switchport trunk allowed vlan 75,125,135,150
+       switchport trunk encapsulation dot1q
+       switchport trunk native vlan 10
+       switchport mode trunk
+       negotiation auto
+      !
+      interface GigabitEthernet0/1
+       description Link to ios-sw04
+       switchport trunk allowed vlan 75,125,135,150
+       switchport trunk encapsulation dot1q
+       switchport trunk native vlan 10
+       switchport mode trunk
+       negotiation auto
+      !
+      interface GigabitEthernet0/2
+       description Link to ios-sw03
+       switchport trunk allowed vlan 75,125,135,150
+       switchport trunk encapsulation dot1q
+       switchport trunk native vlan 10
+       switchport mode trunk
+       negotiation auto
+      !
+      interface GigabitEthernet0/3
+       negotiation auto
+      !
+      interface GigabitEthernet1/0
+       negotiation auto
+      !
+      interface GigabitEthernet1/1
+       description Desktop
+       switchport access vlan 125
+       switchport mode access
+       negotiation auto
+      !
+      interface GigabitEthernet1/2
+       description Desktop
+       switchport access vlan 125
+       switchport mode access
+       negotiation auto
+      !
+      interface GigabitEthernet1/3
+       description Desktop
+       switchport access vlan 125
+       switchport mode access
+       negotiation auto
+      !
+      interface Vlan75
+       ip address 172.16.34.1 255.255.255.0
+      !
+      ip forward-protocol nd
+      !
+      ip http server
+      ip http secure-server
+      !
+      ip ssh server algorithm encryption aes128-ctr aes192-ctr aes256-ctr
+      ip ssh client algorithm encryption aes128-ctr aes192-ctr aes256-ctr
+      !
+      !
+      !
+      !
+      !
+      !
+      control-plane
+      !
+      banner exec ^C
+      **************************************************************************
+      * IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+      * education. IOSv is provided as-is and is not supported by Cisco's      *
+      * Technical Advisory Center. Any use or disclosure, in whole or in part, *
+      * of the IOSv Software or Documentation to any third party for any       *
+      * purposes is expressly prohibited except as otherwise authorized by     *
+      * Cisco in writing.                                                      *
+      **************************************************************************^C
+      banner incoming ^C
+      **************************************************************************
+      * IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+      * education. IOSv is provided as-is and is not supported by Cisco's      *
+      * Technical Advisory Center. Any use or disclosure, in whole or in part, *
+      * of the IOSv Software or Documentation to any third party for any       *
+      * purposes is expressly prohibited except as otherwise authorized by     *
+      * Cisco in writing.                                                      *
+      **************************************************************************^C
+      banner login ^C
+      **************************************************************************
+      * IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+      * education. IOSv is provided as-is and is not supported by Cisco's      *
+      * Technical Advisory Center. Any use or disclosure, in whole or in part, *
+      * of the IOSv Software or Documentation to any third party for any       *
+      * purposes is expressly prohibited except as otherwise authorized by     *
+      * Cisco in writing.                                                      *
+      **************************************************************************^C
+      !
+      line con 0
+       exec-timeout 0 0
+      line aux 0
+      line vty 0 4
+       login
+      !
+      !
+      end
+    image_definition: iosvl2-2019
+    tags: []
+    interfaces:
+      - id: i0
+        label: Loopback0
+        type: loopback
+      - id: i1
+        slot: 0
+        label: GigabitEthernet0/0
+        type: physical
+      - id: i2
+        slot: 1
+        label: GigabitEthernet0/1
+        type: physical
+      - id: i3
+        slot: 2
+        label: GigabitEthernet0/2
+        type: physical
+      - id: i4
+        slot: 3
+        label: GigabitEthernet0/3
+        type: physical
+      - id: i5
+        slot: 4
+        label: GigabitEthernet1/0
+        type: physical
+      - id: i6
+        slot: 5
+        label: GigabitEthernet1/1
+        type: physical
+      - id: i7
+        slot: 6
+        label: GigabitEthernet1/2
+        type: physical
+      - id: i8
+        slot: 7
+        label: GigabitEthernet1/3
+        type: physical
+  - id: n1
+    label: ios-sw02
+    node_definition: iosvl2
+    x: -200
+    y: 150
+    configuration: |-
+      Building configuration...
+
+      Current configuration : 3882 bytes
+      !
+      ! Last configuration change at 02:15:20 UTC Thu Feb 25 2021
+      !
+      version 15.2
+      service timestamps debug datetime msec
+      service timestamps log datetime msec
+      no service password-encryption
+      service compress-config
+      !
+      hostname ios-sw02
+      !
+      boot-start-marker
+      boot-end-marker
+      !
+      !
+      no logging console
+      !
+      no aaa new-model
+      !
+      !
+      !
+      !
+      !
+      vtp mode transparent
+      !
+      !
+      !
+      ip cef
+      no ipv6 cef
+      !
+      !
+      !
+      spanning-tree mode pvst
+      spanning-tree extend system-id
+      !
+      !
+      vlan 10
+       name Native VLAN
+      !
+      vlan 75
+       name Management
+      !
+      vlan 125
+       name Desktop
+      !
+      vlan 135
+       name Voice
+      !
+      vlan 150
+       name Servers
+      lldp run
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      interface GigabitEthernet0/0
+       description Link 1 to ios-sw04
+       switchport trunk allowed vlan 75,125,135,150
+       switchport trunk encapsulation dot1q
+       switchport trunk native vlan 10
+       switchport mode dynamic desirable
+       negotiation auto
+      !
+      interface GigabitEthernet0/1
+       description Link 2 to ios-sw04
+       switchport trunk allowed vlan 75,125,135,150
+       switchport trunk encapsulation dot1q
+       switchport trunk native vlan 10
+       switchport mode dynamic desirable
+       negotiation auto
+      !
+      interface GigabitEthernet0/2
+       description Link to ios-sw03
+       switchport trunk allowed vlan 75,125,135,150
+       switchport trunk encapsulation dot1q
+       switchport trunk native vlan 10
+       switchport mode trunk
+       negotiation auto
+      !
+      interface GigabitEthernet0/3
+       description Link to ios-sw01
+       switchport trunk allowed vlan 75,125,135,150
+       switchport trunk encapsulation dot1q
+       switchport trunk native vlan 10
+       switchport mode trunk
+       negotiation auto
+      !
+      interface GigabitEthernet1/0
+       negotiation auto
+      !
+      interface GigabitEthernet1/1
+       negotiation auto
+      !
+      interface GigabitEthernet1/2
+       negotiation auto
+      !
+      interface GigabitEthernet1/3
+       negotiation auto
+      !
+      interface Vlan75
+       ip address 172.16.34.2 255.255.255.0
+      !
+      ip forward-protocol nd
+      !
+      ip http server
+      ip http secure-server
+      !
+      ip ssh server algorithm encryption aes128-ctr aes192-ctr aes256-ctr
+      ip ssh client algorithm encryption aes128-ctr aes192-ctr aes256-ctr
+      !
+      !
+      !
+      !
+      !
+      !
+      control-plane
+      !
+      banner exec ^C
+      **************************************************************************
+      * IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+      * education. IOSv is provided as-is and is not supported by Cisco's      *
+      * Technical Advisory Center. Any use or disclosure, in whole or in part, *
+      * of the IOSv Software or Documentation to any third party for any       *
+      * purposes is expressly prohibited except as otherwise authorized by     *
+      * Cisco in writing.                                                      *
+      **************************************************************************^C
+      banner incoming ^C
+      **************************************************************************
+      * IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+      * education. IOSv is provided as-is and is not supported by Cisco's      *
+      * Technical Advisory Center. Any use or disclosure, in whole or in part, *
+      * of the IOSv Software or Documentation to any third party for any       *
+      * purposes is expressly prohibited except as otherwise authorized by     *
+      * Cisco in writing.                                                      *
+      **************************************************************************^C
+      banner login ^C
+      **************************************************************************
+      * IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+      * education. IOSv is provided as-is and is not supported by Cisco's      *
+      * Technical Advisory Center. Any use or disclosure, in whole or in part, *
+      * of the IOSv Software or Documentation to any third party for any       *
+      * purposes is expressly prohibited except as otherwise authorized by     *
+      * Cisco in writing.                                                      *
+      **************************************************************************^C
+      !
+      line con 0
+       exec-timeout 0 0
+      line aux 0
+      line vty 0 4
+       login
+      !
+      !
+      end
+    image_definition: iosvl2-2019
+    tags: []
+    interfaces:
+      - id: i0
+        label: Loopback0
+        type: loopback
+      - id: i1
+        slot: 0
+        label: GigabitEthernet0/0
+        type: physical
+      - id: i2
+        slot: 1
+        label: GigabitEthernet0/1
+        type: physical
+      - id: i3
+        slot: 2
+        label: GigabitEthernet0/2
+        type: physical
+      - id: i4
+        slot: 3
+        label: GigabitEthernet0/3
+        type: physical
+      - id: i5
+        slot: 4
+        label: GigabitEthernet1/0
+        type: physical
+      - id: i6
+        slot: 5
+        label: GigabitEthernet1/1
+        type: physical
+      - id: i7
+        slot: 6
+        label: GigabitEthernet1/2
+        type: physical
+      - id: i8
+        slot: 7
+        label: GigabitEthernet1/3
+        type: physical
+  - id: n2
+    label: ios-sw03
+    node_definition: iosvl2
+    x: -450
+    y: 400
+    configuration: |-
+      Building configuration...
+
+      Current configuration : 4116 bytes
+      !
+      ! Last configuration change at 02:16:04 UTC Thu Feb 25 2021
+      !
+      version 15.2
+      service timestamps debug datetime msec
+      service timestamps log datetime msec
+      no service password-encryption
+      service compress-config
+      !
+      hostname ios-sw03
+      !
+      boot-start-marker
+      boot-end-marker
+      !
+      !
+      no logging console
+      !
+      no aaa new-model
+      !
+      !
+      !
+      !
+      !
+      vtp mode transparent
+      !
+      !
+      !
+      ip cef
+      no ipv6 cef
+      !
+      !
+      !
+      spanning-tree mode pvst
+      spanning-tree extend system-id
+      !
+      !
+      vlan 10
+       name Native VLAN
+      !
+      vlan 75
+       name Management
+      !
+      vlan 125
+       name Desktop
+      !
+      vlan 135
+       name Voice
+      !
+      vlan 150
+       name Servers
+      lldp run
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      interface GigabitEthernet0/0
+       description Link to ios-sw01
+       switchport trunk allowed vlan 75,125,135,150
+       switchport trunk encapsulation dot1q
+       switchport trunk native vlan 10
+       switchport mode trunk
+       negotiation auto
+      !
+      interface GigabitEthernet0/1
+       description Link to ios-sw02
+       switchport trunk allowed vlan 75,125,135,150
+       switchport trunk encapsulation dot1q
+       switchport trunk native vlan 10
+       switchport mode trunk
+       negotiation auto
+      !
+      interface GigabitEthernet0/2
+       description Link 1 to ios-sw04
+       switchport trunk allowed vlan 75,125,135,150
+       switchport trunk encapsulation dot1q
+       switchport trunk native vlan 10
+       switchport mode dynamic desirable
+       negotiation auto
+      !
+      interface GigabitEthernet0/3
+       description Link 2 to ios-sw04
+       switchport trunk allowed vlan 75,125,135,150
+       switchport trunk encapsulation dot1q
+       switchport trunk native vlan 10
+       switchport mode dynamic desirable
+       negotiation auto
+      !
+      interface GigabitEthernet1/0
+       negotiation auto
+      !
+      interface GigabitEthernet1/1
+       description Desktop
+       switchport access vlan 125
+       switchport mode access
+       negotiation auto
+      !
+      interface GigabitEthernet1/2
+       description Desktop
+       switchport access vlan 125
+       switchport mode access
+       negotiation auto
+      !
+      interface GigabitEthernet1/3
+       description Desktop
+       switchport access vlan 125
+       switchport mode access
+       negotiation auto
+      !
+      interface Vlan75
+       ip address 172.16.34.3 255.255.255.0
+      !
+      ip forward-protocol nd
+      !
+      ip http server
+      ip http secure-server
+      !
+      ip ssh server algorithm encryption aes128-ctr aes192-ctr aes256-ctr
+      ip ssh client algorithm encryption aes128-ctr aes192-ctr aes256-ctr
+      !
+      !
+      !
+      !
+      !
+      !
+      control-plane
+      !
+      banner exec ^C
+      **************************************************************************
+      * IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+      * education. IOSv is provided as-is and is not supported by Cisco's      *
+      * Technical Advisory Center. Any use or disclosure, in whole or in part, *
+      * of the IOSv Software or Documentation to any third party for any       *
+      * purposes is expressly prohibited except as otherwise authorized by     *
+      * Cisco in writing.                                                      *
+      **************************************************************************^C
+      banner incoming ^C
+      **************************************************************************
+      * IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+      * education. IOSv is provided as-is and is not supported by Cisco's      *
+      * Technical Advisory Center. Any use or disclosure, in whole or in part, *
+      * of the IOSv Software or Documentation to any third party for any       *
+      * purposes is expressly prohibited except as otherwise authorized by     *
+      * Cisco in writing.                                                      *
+      **************************************************************************^C
+      banner login ^C
+      **************************************************************************
+      * IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+      * education. IOSv is provided as-is and is not supported by Cisco's      *
+      * Technical Advisory Center. Any use or disclosure, in whole or in part, *
+      * of the IOSv Software or Documentation to any third party for any       *
+      * purposes is expressly prohibited except as otherwise authorized by     *
+      * Cisco in writing.                                                      *
+      **************************************************************************^C
+      !
+      line con 0
+       exec-timeout 0 0
+      line aux 0
+      line vty 0 4
+       login
+      !
+      !
+      end
+    image_definition: iosvl2-2019
+    tags: []
+    interfaces:
+      - id: i0
+        label: Loopback0
+        type: loopback
+      - id: i1
+        slot: 0
+        label: GigabitEthernet0/0
+        type: physical
+      - id: i2
+        slot: 1
+        label: GigabitEthernet0/1
+        type: physical
+      - id: i3
+        slot: 2
+        label: GigabitEthernet0/2
+        type: physical
+      - id: i4
+        slot: 3
+        label: GigabitEthernet0/3
+        type: physical
+      - id: i5
+        slot: 4
+        label: GigabitEthernet1/0
+        type: physical
+      - id: i6
+        slot: 5
+        label: GigabitEthernet1/1
+        type: physical
+      - id: i7
+        slot: 6
+        label: GigabitEthernet1/2
+        type: physical
+      - id: i8
+        slot: 7
+        label: GigabitEthernet1/3
+        type: physical
+  - id: n3
+    label: ios-sw04
+    node_definition: iosvl2
+    x: -200
+    y: 400
+    configuration: |-
+      Building configuration...
+
+      Current configuration : 4295 bytes
+      !
+      ! Last configuration change at 02:16:18 UTC Thu Feb 25 2021
+      !
+      version 15.2
+      service timestamps debug datetime msec
+      service timestamps log datetime msec
+      no service password-encryption
+      service compress-config
+      !
+      hostname ios-sw04
+      !
+      boot-start-marker
+      boot-end-marker
+      !
+      !
+      no logging console
+      !
+      no aaa new-model
+      !
+      !
+      !
+      !
+      !
+      vtp mode transparent
+      !
+      !
+      !
+      ip cef
+      no ipv6 cef
+      !
+      !
+      !
+      spanning-tree mode pvst
+      spanning-tree extend system-id
+      !
+      !
+      vlan 10
+       name Native VLAN
+      !
+      vlan 75
+       name Management
+      !
+      vlan 125
+       name Desktop
+      !
+      vlan 135
+       name Voice
+      !
+      vlan 150
+       name Servers
+      lldp run
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      !
+      interface GigabitEthernet0/0
+       description Link 1 to ios-sw02
+       switchport trunk allowed vlan 75,125,135,150
+       switchport trunk encapsulation dot1q
+       switchport trunk native vlan 10
+       switchport mode dynamic desirable
+       negotiation auto
+      !
+      interface GigabitEthernet0/1
+       description Link 2 to ios-sw02
+       switchport trunk allowed vlan 75,125,135,150
+       switchport trunk encapsulation dot1q
+       switchport trunk native vlan 10
+       switchport mode dynamic desirable
+       negotiation auto
+      !
+      interface GigabitEthernet0/2
+       description Link 1 to ios-sw03
+       switchport trunk allowed vlan 75,125,135,150
+       switchport trunk encapsulation dot1q
+       switchport trunk native vlan 10
+       switchport mode dynamic desirable
+       negotiation auto
+      !
+      interface GigabitEthernet0/3
+       description Link 2 to ios-sw03
+       switchport trunk allowed vlan 75,125,135,150
+       switchport trunk encapsulation dot1q
+       switchport trunk native vlan 10
+       switchport mode dynamic desirable
+       negotiation auto
+      !
+      interface GigabitEthernet1/0
+       description Link to ios-sw01
+       switchport trunk allowed vlan 75,125,135,150
+       switchport trunk encapsulation dot1q
+       switchport trunk native vlan 10
+       switchport mode trunk
+       negotiation auto
+      !
+      interface GigabitEthernet1/1
+       description Servers
+       switchport access vlan 150
+       switchport mode access
+       negotiation auto
+      !
+      interface GigabitEthernet1/2
+       description Servers
+       switchport access vlan 150
+       switchport mode access
+       negotiation auto
+      !
+      interface GigabitEthernet1/3
+       description Servers
+       switchport access vlan 150
+       switchport mode access
+       negotiation auto
+      !
+      interface Vlan75
+       ip address 172.16.34.4 255.255.255.0
+      !
+      ip forward-protocol nd
+      !
+      ip http server
+      ip http secure-server
+      !
+      ip ssh server algorithm encryption aes128-ctr aes192-ctr aes256-ctr
+      ip ssh client algorithm encryption aes128-ctr aes192-ctr aes256-ctr
+      !
+      !
+      !
+      !
+      !
+      !
+      control-plane
+      !
+      banner exec ^C
+      **************************************************************************
+      * IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+      * education. IOSv is provided as-is and is not supported by Cisco's      *
+      * Technical Advisory Center. Any use or disclosure, in whole or in part, *
+      * of the IOSv Software or Documentation to any third party for any       *
+      * purposes is expressly prohibited except as otherwise authorized by     *
+      * Cisco in writing.                                                      *
+      **************************************************************************^C
+      banner incoming ^C
+      **************************************************************************
+      * IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+      * education. IOSv is provided as-is and is not supported by Cisco's      *
+      * Technical Advisory Center. Any use or disclosure, in whole or in part, *
+      * of the IOSv Software or Documentation to any third party for any       *
+      * purposes is expressly prohibited except as otherwise authorized by     *
+      * Cisco in writing.                                                      *
+      **************************************************************************^C
+      banner login ^C
+      **************************************************************************
+      * IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+      * education. IOSv is provided as-is and is not supported by Cisco's      *
+      * Technical Advisory Center. Any use or disclosure, in whole or in part, *
+      * of the IOSv Software or Documentation to any third party for any       *
+      * purposes is expressly prohibited except as otherwise authorized by     *
+      * Cisco in writing.                                                      *
+      **************************************************************************^C
+      !
+      line con 0
+       exec-timeout 0 0
+      line aux 0
+      line vty 0 4
+       login
+      !
+      !
+      end
+    image_definition: iosvl2-2019
+    tags: []
+    interfaces:
+      - id: i0
+        label: Loopback0
+        type: loopback
+      - id: i1
+        slot: 0
+        label: GigabitEthernet0/0
+        type: physical
+      - id: i2
+        slot: 1
+        label: GigabitEthernet0/1
+        type: physical
+      - id: i3
+        slot: 2
+        label: GigabitEthernet0/2
+        type: physical
+      - id: i4
+        slot: 3
+        label: GigabitEthernet0/3
+        type: physical
+      - id: i5
+        slot: 4
+        label: GigabitEthernet1/0
+        type: physical
+      - id: i6
+        slot: 5
+        label: GigabitEthernet1/1
+        type: physical
+      - id: i7
+        slot: 6
+        label: GigabitEthernet1/2
+        type: physical
+      - id: i8
+        slot: 7
+        label: GigabitEthernet1/3
+        type: physical
+links:
+  - id: l0
+    i1: i1
+    n1: n0
+    i2: i4
+    n2: n1
+  - id: l1
+    i1: i2
+    n1: n0
+    i2: i5
+    n2: n3
+  - id: l2
+    i1: i3
+    n1: n0
+    i2: i1
+    n2: n2
+  - id: l3
+    i1: i1
+    n1: n1
+    i2: i1
+    n2: n3
+  - id: l4
+    i1: i2
+    n1: n1
+    i2: i2
+    n2: n3
+  - id: l5
+    i1: i3
+    n1: n1
+    i2: i2
+    n2: n2
+  - id: l6
+    i1: i3
+    n1: n3
+    i2: i3
+    n2: n2
+  - id: l7
+    i1: i4
+    n1: n3
+    i2: i4
+    n2: n2

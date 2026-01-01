@@ -1,0 +1,123 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="04v4G6UqIDvRxcjG0ibV">
+    <mxGraphModel dx="2276" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-3" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="310" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="EmdfVzeg5zQYTKXCfABK-3" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-2" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;STP&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmdfVzeg5zQYTKXCfABK-3" vertex="1">
+          <mxGeometry x="30" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-6" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="100" y="260" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="EmdfVzeg5zQYTKXCfABK-6" vertex="1">
+          <mxGeometry width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-5" value="Giao thức tầng 2 để ngăn vòng lặp loop trong Switch" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmdfVzeg5zQYTKXCfABK-6" vertex="1">
+          <mxGeometry x="15" y="20" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-10" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="80" y="530" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="EmdfVzeg5zQYTKXCfABK-10" vertex="1">
+          <mxGeometry width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-8" value="bầu chọn Root Bridge và Designed Root&lt;div&gt;- Switch còn lại: nối Root thì sẽ là Root Port, còn nối switch khác sẽ bị chặn cổng&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmdfVzeg5zQYTKXCfABK-10" vertex="1">
+          <mxGeometry x="25" y="50" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-13" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="470" y="130" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="EmdfVzeg5zQYTKXCfABK-13" vertex="1">
+          <mxGeometry width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-12" value="- Đường đi ngắn nhất đến Root Bridge -&amp;gt; Cost thấp nhất&amp;nbsp;&lt;div&gt;- Truyền 10 Mbps = 100 cost STP&lt;/div&gt;&lt;div&gt;1000 Mbps = 19 Cost&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmdfVzeg5zQYTKXCfABK-13" vertex="1">
+          <mxGeometry y="55" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-14" value="- Bầu chọn Root/Designed theo Priority -&amp;gt; MAC&lt;div&gt;- Chọn theo Prority hay MAC số càng ít&lt;/div&gt;&lt;div&gt;- Bridge id = 16 bit, Vlan id chiếm 12 bit =&amp;gt; priority có bội số 4096&amp;nbsp;&lt;br&gt;=&amp;gt; priority phải chọn số có bội số 4096 =? 0,4096,8192,...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="530" width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EmdfVzeg5zQYTKXCfABK-7" target="EmdfVzeg5zQYTKXCfABK-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EmdfVzeg5zQYTKXCfABK-1" target="EmdfVzeg5zQYTKXCfABK-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="287.4" y="440" as="sourcePoint" />
+            <mxPoint x="150.04" y="530.39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="EmdfVzeg5zQYTKXCfABK-1" target="EmdfVzeg5zQYTKXCfABK-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="EmdfVzeg5zQYTKXCfABK-1" target="EmdfVzeg5zQYTKXCfABK-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-22" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="570" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-20" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="EmdfVzeg5zQYTKXCfABK-22" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-21" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;BPDU&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmdfVzeg5zQYTKXCfABK-22" vertex="1">
+          <mxGeometry x="30" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EmdfVzeg5zQYTKXCfABK-1" target="EmdfVzeg5zQYTKXCfABK-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-26" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="790" y="205" width="310" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="EmdfVzeg5zQYTKXCfABK-26" vertex="1">
+          <mxGeometry width="310" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-24" value="&lt;span style=&quot;color: rgb(27, 27, 27); font-family: &amp;quot;Open Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 18px; letter-spacing: -0.054px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;STP là giao thức mặc định có sẵn trên các thiết bị switch. Khi switch bắt đầu khởi động, chúng sẽ liên tục gửi các gói tin BPDU cho nhau, gói tin BPDU này chứa các trường thông tin BID và chi phí đường đi giúp các switch bầu chọn và tính toán các câu trúc trong cây spanning tree.&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmdfVzeg5zQYTKXCfABK-26" vertex="1">
+          <mxGeometry x="20" y="100" width="270" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EmdfVzeg5zQYTKXCfABK-20" target="EmdfVzeg5zQYTKXCfABK-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="EmdfVzeg5zQYTKXCfABK-25" target="EmdfVzeg5zQYTKXCfABK-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-29" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EmdfVzeg5zQYTKXCfABK-4" target="EmdfVzeg5zQYTKXCfABK-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="230" as="sourcePoint" />
+            <mxPoint x="320" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="200" />
+              <mxPoint x="350" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-30" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;COST để giúp không bị LOOP&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="250" y="160" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-33" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-140" y="342.5" width="190" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-34" value="" style="group" parent="EmdfVzeg5zQYTKXCfABK-33" vertex="1" connectable="0">
+          <mxGeometry width="160" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="EmdfVzeg5zQYTKXCfABK-34" vertex="1">
+          <mxGeometry width="160" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-32" value="- Sử dụng TT Radia Perlman - dựa trên nguyên lý TT Kruskal - hoặc Prim&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EmdfVzeg5zQYTKXCfABK-34" vertex="1">
+          <mxGeometry x="5" y="20.630000000000003" width="150" height="93.75" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdfVzeg5zQYTKXCfABK-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EmdfVzeg5zQYTKXCfABK-1" target="EmdfVzeg5zQYTKXCfABK-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,218 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="3021" dy="2515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-2" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="354" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-0" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="gNc8UZigeDWEt_GLSP8J-2">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-1" value="Mạng ngang hàng" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gNc8UZigeDWEt_GLSP8J-2">
+          <mxGeometry x="10" y="15" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-5" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gNc8UZigeDWEt_GLSP8J-5">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-4" value="lusrmgr.msc" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gNc8UZigeDWEt_GLSP8J-5">
+          <mxGeometry x="30" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.413;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gNc8UZigeDWEt_GLSP8J-3" target="gNc8UZigeDWEt_GLSP8J-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-10" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="720" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-7" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="gNc8UZigeDWEt_GLSP8J-10">
+          <mxGeometry width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-9" value="cấu hình và quản lý user và group" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gNc8UZigeDWEt_GLSP8J-10">
+          <mxGeometry x="2" y="5" width="76" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-14" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gNc8UZigeDWEt_GLSP8J-14">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-13" value="compmgmt.msc" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gNc8UZigeDWEt_GLSP8J-14">
+          <mxGeometry y="15" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gNc8UZigeDWEt_GLSP8J-0" target="gNc8UZigeDWEt_GLSP8J-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gNc8UZigeDWEt_GLSP8J-0" target="gNc8UZigeDWEt_GLSP8J-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="410" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gNc8UZigeDWEt_GLSP8J-13" target="gNc8UZigeDWEt_GLSP8J-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="240" as="sourcePoint" />
+            <mxPoint x="410" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-20" value="gồm" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-22" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="150" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-17" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="gNc8UZigeDWEt_GLSP8J-22">
+          <mxGeometry width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-21" value="Quản lý hệ thống máy tính" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gNc8UZigeDWEt_GLSP8J-22">
+          <mxGeometry x="5" y="10" width="75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-29" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-110" y="-70" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-26" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="gNc8UZigeDWEt_GLSP8J-29">
+          <mxGeometry width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-28" value="- quản lý ổ đĩa&lt;br&gt;- quản lý phần cứng&lt;br&gt;- xem nhật ký hoạt động&lt;div&gt;-...&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gNc8UZigeDWEt_GLSP8J-29">
+          <mxGeometry x="15" y="15" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gNc8UZigeDWEt_GLSP8J-17" target="gNc8UZigeDWEt_GLSP8J-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gNc8UZigeDWEt_GLSP8J-12" target="gNc8UZigeDWEt_GLSP8J-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="180" as="sourcePoint" />
+            <mxPoint x="320" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0.07;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gNc8UZigeDWEt_GLSP8J-0" target="gNc8UZigeDWEt_GLSP8J-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="570" as="sourcePoint" />
+            <mxPoint x="510" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-36" value="chỉ áp dụng cho 1 pc" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="414" y="620" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-38" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="346" y="790" width="136" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-34" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="gNc8UZigeDWEt_GLSP8J-38">
+          <mxGeometry x="18" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-37" value="Win pro/education/..&lt;br&gt;(ngoại trừ Win Home)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gNc8UZigeDWEt_GLSP8J-38">
+          <mxGeometry y="80" width="136" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-41" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="505" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gNc8UZigeDWEt_GLSP8J-41">
+          <mxGeometry width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-40" value="gpedit.msc (Group Policy Editor)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gNc8UZigeDWEt_GLSP8J-41">
+          <mxGeometry x="5" y="15" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gNc8UZigeDWEt_GLSP8J-0" target="gNc8UZigeDWEt_GLSP8J-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="440" />
+              <mxPoint x="380" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-46" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-440" y="450" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-43" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="gNc8UZigeDWEt_GLSP8J-46">
+          <mxGeometry width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-44" value="Dùng để kiểm soát hành vi của máy tính, quyền truy cập, bảo mật, giao diện,...&lt;div&gt;=&amp;gt; áp dùng cho toàn bộ user và group&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gNc8UZigeDWEt_GLSP8J-46">
+          <mxGeometry x="15" y="20" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gNc8UZigeDWEt_GLSP8J-39" target="gNc8UZigeDWEt_GLSP8J-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-210" y="550" as="sourcePoint" />
+            <mxPoint x="-160" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-49" value=" quản lý cài đặt và cấu hình trên máy tính và người dùng." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-240" y="500" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-52" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="750" y="490" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-50" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gNc8UZigeDWEt_GLSP8J-52">
+          <mxGeometry x="5" width="295" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-51" value="&lt;span data-end=&quot;1554&quot; data-start=&quot;1512&quot;&gt;mmc.exe (Microsoft Management Console)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gNc8UZigeDWEt_GLSP8J-52">
+          <mxGeometry x="20" y="15" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="gNc8UZigeDWEt_GLSP8J-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="452.5" y="440" as="sourcePoint" />
+            <mxPoint x="750" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="453" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-57" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1240" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-55" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="gNc8UZigeDWEt_GLSP8J-57">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-56" value="cấu hình lẻ 1 user&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gNc8UZigeDWEt_GLSP8J-57">
+          <mxGeometry x="15" y="15" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.316;entryY=0.252;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="gNc8UZigeDWEt_GLSP8J-57" source="gNc8UZigeDWEt_GLSP8J-56" target="gNc8UZigeDWEt_GLSP8J-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gNc8UZigeDWEt_GLSP8J-50" target="gNc8UZigeDWEt_GLSP8J-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="620" as="sourcePoint" />
+            <mxPoint x="1170" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="490" as="sourcePoint" />
+            <mxPoint x="20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1300" y="490" />
+              <mxPoint x="1300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-71" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-440" y="800" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-67" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="gNc8UZigeDWEt_GLSP8J-71">
+          <mxGeometry x="-5" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-70" value="- Không cho sử dụng control panel&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;div&gt;- Không hiển thị sẵn tên đăng nhập&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- không hiện thị icon deskop recycle bin&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-...&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gNc8UZigeDWEt_GLSP8J-71">
+          <mxGeometry x="25" y="20" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-72" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gNc8UZigeDWEt_GLSP8J-43" target="gNc8UZigeDWEt_GLSP8J-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-240" y="760" as="sourcePoint" />
+            <mxPoint x="-190" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-75" value="Ví dụ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-360" y="700" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gNc8UZigeDWEt_GLSP8J-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gNc8UZigeDWEt_GLSP8J-55" target="gNc8UZigeDWEt_GLSP8J-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1300" y="1000" />
+              <mxPoint x="-355" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

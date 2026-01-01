@@ -1,0 +1,515 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="mGBWJ92L0DcMHZLhQjD_">
+    <mxGraphModel dx="3126" dy="1941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-9" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;192.168.73.0/24&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="510" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.011;entryY=0.421;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.009;exitY=0.52;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="T99CXxRt97nMfTS7Bjkq-14" target="T99CXxRt97nMfTS7Bjkq-26" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="340" as="sourcePoint" />
+            <mxPoint x="460" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-28" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="730" y="207.70999999999998" width="313.37" height="220.0033333333333" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-31" value="" style="group" parent="T99CXxRt97nMfTS7Bjkq-28" vertex="1" connectable="0">
+          <mxGeometry x="1.5" y="-40" width="311.87" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-26" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="T99CXxRt97nMfTS7Bjkq-31" vertex="1">
+          <mxGeometry width="311.87" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-5" value="192.168.73.148&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Perfered dns:192.168.73.10&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T99CXxRt97nMfTS7Bjkq-31" vertex="1">
+          <mxGeometry x="75.94611764705883" y="139.99729469355705" width="175.1824817518248" height="67.45283602849337" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-2" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_Empty_128x128.png" parent="T99CXxRt97nMfTS7Bjkq-31" vertex="1">
+          <mxGeometry x="128.50096887075998" y="62.29309164318257" width="70.07299270072994" height="67.45283602849337" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-30" value="NAT&lt;br&gt;Name:SVR2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T99CXxRt97nMfTS7Bjkq-31" vertex="1">
+          <mxGeometry x="128.5" y="10.000000000000028" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-33" value="Secondary Zone" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="836.68" y="123.21" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-54" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="90" y="93.21" width="480" height="321.79" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-12" value="" style="group" parent="T99CXxRt97nMfTS7Bjkq-54" vertex="1" connectable="0">
+          <mxGeometry y="30" width="480" height="291.79" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-4" value="" style="group" parent="T99CXxRt97nMfTS7Bjkq-12" vertex="1" connectable="0">
+          <mxGeometry y="23.333066782425924" width="480" height="268.45693321757415" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-18" value="" style="group" parent="T99CXxRt97nMfTS7Bjkq-4" vertex="1" connectable="0">
+          <mxGeometry x="4.659194492430602" width="309.8215322717127" height="262.9969955904865" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-14" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="T99CXxRt97nMfTS7Bjkq-18" vertex="1">
+          <mxGeometry width="261.27252697425354" height="261.27252697425354" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-1" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" parent="T99CXxRt97nMfTS7Bjkq-18" vertex="1">
+          <mxGeometry x="79.98930165796862" y="57.959337887546" width="101.2910713685319" height="73.20177814094409" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-3" value="192.168.73.10&lt;div&gt;Gate:192.168.73.148&lt;/div&gt;&lt;div&gt;Perfered dns:192.168.73.10&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T99CXxRt97nMfTS7Bjkq-18" vertex="1">
+          <mxGeometry x="23.0105417363852" y="175.37416355393162" width="215.24352665813032" height="73.20177814094409" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-13" value="DNS Suffix: ilab.vn" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T99CXxRt97nMfTS7Bjkq-18" vertex="1">
+          <mxGeometry x="71.44476671883689" y="152.03926672705217" width="118.38393966197167" height="23.333066782425927" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-11" value="DNS Server&lt;br&gt;Name:SVR1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="T99CXxRt97nMfTS7Bjkq-18" vertex="1">
+          <mxGeometry x="82.97259502514162" y="12.79956704271226" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-32" value="Primary Zone" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T99CXxRt97nMfTS7Bjkq-54" vertex="1">
+          <mxGeometry x="80" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-3" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-320" y="120" width="270" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="wS505IJY1fHDSycIYa6W-3" vertex="1">
+          <mxGeometry y="30" width="256.79" height="256.79" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-2" value="&lt;font style=&quot;color: rgb(204, 0, 0); font-size: 16px;&quot;&gt;SVR1 DNS Manager&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wS505IJY1fHDSycIYa6W-3" vertex="1">
+          <mxGeometry x="38.889999999999986" width="179" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-40" value="Tạo và quản lý các &lt;strong data-end=&quot;339&quot; data-start=&quot;327&quot;&gt;DNS zone&lt;/strong&gt; (vùng dữ liệu tên miền)." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wS505IJY1fHDSycIYa6W-3" vertex="1">
+          <mxGeometry x="35.9" y="90" width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-42" value="&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;Tạo, chỉnh sửa các DNS record như A, NS, MX, CNAME, PTR,...&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wS505IJY1fHDSycIYa6W-3" vertex="1">
+          <mxGeometry x="40" y="170" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-7" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-600" y="-330" width="190" height="223.21" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="wS505IJY1fHDSycIYa6W-7" vertex="1">
+          <mxGeometry y="33.21" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-5" value="&lt;font style=&quot;font-size: 16px; color: rgb(255, 0, 0);&quot;&gt;Root Hint&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wS505IJY1fHDSycIYa6W-7" vertex="1">
+          <mxGeometry x="60" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-6" value="Danh sách các máy chủ DNS gốc trên internet&lt;div&gt;DNS server sẽ dùng Root Hint để hỏi khi không biết IP của một miền nào đó&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wS505IJY1fHDSycIYa6W-7" vertex="1">
+          <mxGeometry x="10" y="46.42" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="T99CXxRt97nMfTS7Bjkq-14" target="wS505IJY1fHDSycIYa6W-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-520" y="360" as="sourcePoint" />
+            <mxPoint x="-470" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-44" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-910" y="710" width="320" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-84" value="" style="group" parent="wS505IJY1fHDSycIYa6W-44" vertex="1" connectable="0">
+          <mxGeometry width="300" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-82" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="T99CXxRt97nMfTS7Bjkq-84" vertex="1">
+          <mxGeometry x="50" y="40" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-83" value="&lt;strong data-end=&quot;1290&quot; data-start=&quot;1256&quot;&gt;&lt;font style=&quot;font-size: 16px; color: rgb(204, 0, 0);&quot;&gt;New Mail Exchanger (MX Record)&lt;/font&gt;&lt;/strong&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T99CXxRt97nMfTS7Bjkq-84" vertex="1">
+          <mxGeometry width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-85" value="Dùng để xác định &lt;strong data-end=&quot;1347&quot; data-start=&quot;1325&quot;&gt;máy chủ nhận email&lt;/strong&gt; cho tên miền." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T99CXxRt97nMfTS7Bjkq-84" vertex="1">
+          <mxGeometry x="65" y="50" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-86" value="cấu hình ai nhận mail sẽ trỏ tới server mail (ip server mail)&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T99CXxRt97nMfTS7Bjkq-84" vertex="1">
+          <mxGeometry x="65" y="90" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-87" value="- nhiều mail server thì cấu hình độ ưu tiên&lt;br&gt;- độ ưu tiên càng thấp thì ưu tiên nhận mail" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T99CXxRt97nMfTS7Bjkq-84" vertex="1">
+          <mxGeometry x="87.5" y="130" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-90" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.379;entryY=0.095;entryDx=0;entryDy=0;entryPerimeter=0;" parent="wS505IJY1fHDSycIYa6W-44" source="T99CXxRt97nMfTS7Bjkq-82" target="T99CXxRt97nMfTS7Bjkq-91" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="320" as="sourcePoint" />
+            <mxPoint x="340" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-92" value="" style="group" parent="wS505IJY1fHDSycIYa6W-44" vertex="1" connectable="0">
+          <mxGeometry x="10" y="400" width="310" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-96" value="" style="group" parent="T99CXxRt97nMfTS7Bjkq-92" vertex="1" connectable="0">
+          <mxGeometry width="271.24999999999994" height="309.99999999999994" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-89" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="T99CXxRt97nMfTS7Bjkq-96" vertex="1">
+          <mxGeometry y="38.75" width="271.24999999999994" height="271.24999999999994" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-91" value="cấu hình" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T99CXxRt97nMfTS7Bjkq-96" vertex="1">
+          <mxGeometry x="108.13953488372094" width="86.51162790697676" height="38.75" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-93" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;host and child man:&lt;/font&gt;&lt;br&gt;+ support = &amp;gt; abc@support.ilab.vn&lt;br&gt;+ để trống = &amp;gt; abc@ilab.vn&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;- Full Qualified domain name(FQDN)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;+cấu hình domain của server mail&lt;/div&gt;&lt;div&gt;host name + domain&amp;nbsp;&lt;br&gt;domain hiện tại: ilab.vn&lt;br&gt;SVR1.ilab.vn. ( nhớ &quot;.&quot; cuối dòng đảm bảo là FQDN kết thúc )&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;- FQDN of server:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;+ mail.ilab.vn sẽ là mail server nhận mail&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;- priority: 10 ( 1- 65535 )&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T99CXxRt97nMfTS7Bjkq-96" vertex="1">
+          <mxGeometry x="20" y="96.88" width="237.65" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-94" value="&lt;font style=&quot;color: rgb(204, 0, 0);&quot;&gt;ilab.vn&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wS505IJY1fHDSycIYa6W-44" vertex="1">
+          <mxGeometry x="160" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-45" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-330" y="700" width="970" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-38" value="" style="group" parent="wS505IJY1fHDSycIYa6W-45" vertex="1" connectable="0">
+          <mxGeometry width="320" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-36" value="" style="group" parent="T99CXxRt97nMfTS7Bjkq-38" vertex="1" connectable="0">
+          <mxGeometry y="40" width="320" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="T99CXxRt97nMfTS7Bjkq-36" vertex="1">
+          <mxGeometry width="260" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-37" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;ilab.vn&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T99CXxRt97nMfTS7Bjkq-36" vertex="1">
+          <mxGeometry x="100" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-57" value="&lt;font style=&quot;color: rgb(204, 0, 0);&quot;&gt;tự động cập nhật ip chính nó lên Forward lookup zone&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T99CXxRt97nMfTS7Bjkq-36" vertex="1">
+          <mxGeometry x="20" y="50" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-35" value="&lt;font style=&quot;color: rgb(204, 0, 0); font-size: 16px;&quot;&gt;Forward loookup zone&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T99CXxRt97nMfTS7Bjkq-38" vertex="1">
+          <mxGeometry x="47.5" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-60" value="" style="group" parent="wS505IJY1fHDSycIYa6W-45" vertex="1" connectable="0">
+          <mxGeometry x="500" y="10" width="195" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-63" value="" style="group" parent="T99CXxRt97nMfTS7Bjkq-60" vertex="1" connectable="0">
+          <mxGeometry width="190" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-58" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="T99CXxRt97nMfTS7Bjkq-63" vertex="1">
+          <mxGeometry y="40" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-59" value="&lt;font style=&quot;color: rgb(204, 0, 0);&quot;&gt;new host (A or AAAA)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T99CXxRt97nMfTS7Bjkq-63" vertex="1">
+          <mxGeometry x="35" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-61" value="A : IPv4 -&amp;gt; tên miền&lt;br&gt;AAAA : IPv6 -&amp;gt; tên miền" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T99CXxRt97nMfTS7Bjkq-63" vertex="1">
+          <mxGeometry x="35" y="50" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-62" value="Dùng để định danh 1 tên máy chủ hoặc dịch vụ trong mạng.&lt;br&gt;ví dụ: truy câp web thông qua wed.ilab.vn thay vì http:\\192.168.73.10" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T99CXxRt97nMfTS7Bjkq-63" vertex="1">
+          <mxGeometry x="17.5" y="120" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-65" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="wS505IJY1fHDSycIYa6W-45" source="T99CXxRt97nMfTS7Bjkq-34" target="T99CXxRt97nMfTS7Bjkq-58" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="190" as="sourcePoint" />
+            <mxPoint x="400" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-68" value="" style="group" parent="wS505IJY1fHDSycIYa6W-45" vertex="1" connectable="0">
+          <mxGeometry x="20" y="390" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-64" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="T99CXxRt97nMfTS7Bjkq-68" vertex="1">
+          <mxGeometry x="15" y="40" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-66" value="&lt;strong data-end=&quot;784&quot; data-start=&quot;756&quot;&gt;&lt;font style=&quot;color: rgb(204, 0, 0);&quot;&gt;New Alias (CNAME Record)&lt;/font&gt;&lt;/strong&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T99CXxRt97nMfTS7Bjkq-68" vertex="1">
+          <mxGeometry x="25" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-69" value="Là &lt;strong data-end=&quot;827&quot; data-start=&quot;805&quot;&gt;bí danh (nickname)&lt;/strong&gt; trỏ đến một host name có sẵn." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T99CXxRt97nMfTS7Bjkq-68" vertex="1">
+          <mxGeometry x="20" y="50" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-70" value="tạo quocanh.local trỏ tới&lt;br&gt;wed.ilab.vn" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T99CXxRt97nMfTS7Bjkq-68" vertex="1">
+          <mxGeometry x="32.5" y="90" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-74" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.991;exitY=0.33;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="wS505IJY1fHDSycIYa6W-45" source="T99CXxRt97nMfTS7Bjkq-64" target="T99CXxRt97nMfTS7Bjkq-76" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="510" as="sourcePoint" />
+            <mxPoint x="380" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-77" value="" style="group" parent="wS505IJY1fHDSycIYa6W-45" vertex="1" connectable="0">
+          <mxGeometry x="480" y="460" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-76" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="T99CXxRt97nMfTS7Bjkq-77" vertex="1">
+          <mxGeometry width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-73" value="quocanh.local -&amp;gt; dns redirect wed.ilab.vn -&amp;gt; lấy ip từ bản ghi -&amp;gt; load dịch vụ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T99CXxRt97nMfTS7Bjkq-77" vertex="1">
+          <mxGeometry x="12.709999999999994" y="15" width="434.59" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-79" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;cách hoạt động&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wS505IJY1fHDSycIYa6W-45" vertex="1">
+          <mxGeometry x="310" y="460" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-81" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="wS505IJY1fHDSycIYa6W-45" source="T99CXxRt97nMfTS7Bjkq-34" target="T99CXxRt97nMfTS7Bjkq-66" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="330" as="sourcePoint" />
+            <mxPoint x="330" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="wS505IJY1fHDSycIYa6W-1" target="T99CXxRt97nMfTS7Bjkq-35" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-150" y="580" as="sourcePoint" />
+            <mxPoint x="-100" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.565;exitY=-0.055;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.559;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="wS505IJY1fHDSycIYa6W-2" target="T99CXxRt97nMfTS7Bjkq-40" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100" y="70" as="sourcePoint" />
+            <mxPoint x="-50" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-50" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-300" y="-370" width="690" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-42" value="" style="group" parent="wS505IJY1fHDSycIYa6W-50" vertex="1" connectable="0">
+          <mxGeometry width="260" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-40" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="T99CXxRt97nMfTS7Bjkq-42" vertex="1">
+          <mxGeometry y="60" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-41" value="&lt;font style=&quot;font-size: 16px; color: rgb(204, 0, 0);&quot;&gt;Reverse look zone&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T99CXxRt97nMfTS7Bjkq-42" vertex="1">
+          <mxGeometry x="40" y="10" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-43" value="IPv4 Reverse lookup zone" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T99CXxRt97nMfTS7Bjkq-42" vertex="1">
+          <mxGeometry x="30" y="70" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-44" value="network id: 192.168.73" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T99CXxRt97nMfTS7Bjkq-42" vertex="1">
+          <mxGeometry x="45" y="100" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-45" value="Create a new file with&amp;nbsp;this file name" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T99CXxRt97nMfTS7Bjkq-42" vertex="1">
+          <mxGeometry x="5" y="130" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-52" value="&lt;font style=&quot;color: rgb(204, 0, 0);&quot;&gt;192.168.73.10&lt;br&gt;sẽ được cập nhật trên reverse&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="T99CXxRt97nMfTS7Bjkq-42" vertex="1">
+          <mxGeometry x="15" y="210" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-47" value="C:\User&amp;gt; ipconfig \registerdns" style="rounded=0;whiteSpace=wrap;html=1;" parent="wS505IJY1fHDSycIYa6W-50" vertex="1">
+          <mxGeometry x="500" y="60" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-48" value="đăng ký hoặc cập nhật ip của mình vào dns server" style="rounded=0;whiteSpace=wrap;html=1;" parent="wS505IJY1fHDSycIYa6W-50" vertex="1">
+          <mxGeometry x="510" y="190" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-49" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="wS505IJY1fHDSycIYa6W-50" source="T99CXxRt97nMfTS7Bjkq-47" target="T99CXxRt97nMfTS7Bjkq-48" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="260" as="sourcePoint" />
+            <mxPoint x="230" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.019;exitY=0.616;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.02;entryY=0.843;entryDx=0;entryDy=0;entryPerimeter=0;" parent="wS505IJY1fHDSycIYa6W-50" source="T99CXxRt97nMfTS7Bjkq-48" target="T99CXxRt97nMfTS7Bjkq-40" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="260" as="sourcePoint" />
+            <mxPoint x="230" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-51" value="&lt;font style=&quot;color: rgb(204, 0, 0);&quot;&gt;Reverse lookup zone cập nhật&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wS505IJY1fHDSycIYa6W-50" vertex="1">
+          <mxGeometry x="280" y="210" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-56" value="&lt;font style=&quot;color: rgb(204, 0, 0);&quot;&gt;chạy lệnh CMD&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wS505IJY1fHDSycIYa6W-50" vertex="1">
+          <mxGeometry x="300" y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T99CXxRt97nMfTS7Bjkq-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.997;exitY=0.162;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="wS505IJY1fHDSycIYa6W-50" source="T99CXxRt97nMfTS7Bjkq-40" target="T99CXxRt97nMfTS7Bjkq-47" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="260" as="sourcePoint" />
+            <mxPoint x="230" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-54" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-1700" y="159.99999999999997" width="850" height="447" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-69" value="" style="group" parent="wS505IJY1fHDSycIYa6W-54" vertex="1" connectable="0">
+          <mxGeometry x="30" width="850" height="447" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-19" value="" style="group" parent="wS505IJY1fHDSycIYa6W-69" vertex="1" connectable="0">
+          <mxGeometry x="570" y="200" width="280" height="247" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-16" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="wS505IJY1fHDSycIYa6W-19" vertex="1">
+          <mxGeometry x="36.5" y="30" width="207" height="207" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-18" value="&lt;font style=&quot;font-size: 16px; color: rgb(255, 0, 0);&quot;&gt;Zonm Transfer&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wS505IJY1fHDSycIYa6W-19" vertex="1">
+          <mxGeometry x="65" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-20" value="sao chéo DNS primary -&amp;gt; DNS Secondary" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wS505IJY1fHDSycIYa6W-19" vertex="1">
+          <mxGeometry x="45" y="46.79" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-21" value="DNS Primary hư -&amp;gt; còn có DNS Secondary dự phòng" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wS505IJY1fHDSycIYa6W-19" vertex="1">
+          <mxGeometry x="55" y="96.79" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-25" value="" style="group" parent="wS505IJY1fHDSycIYa6W-69" vertex="1" connectable="0">
+          <mxGeometry x="280" width="130" height="98.63999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="wS505IJY1fHDSycIYa6W-25" vertex="1">
+          <mxGeometry x="5" y="29.999999999999986" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-23" value="&lt;strong data-end=&quot;414&quot; data-start=&quot;397&quot;&gt;&lt;font style=&quot;font-size: 16px; color: rgb(255, 0, 0);&quot;&gt;To any server&lt;/font&gt;&lt;/strong&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wS505IJY1fHDSycIYa6W-25" vertex="1">
+          <mxGeometry width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-24" value="Mọi server đều nhận DNS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wS505IJY1fHDSycIYa6W-25" vertex="1">
+          <mxGeometry x="35" y="45" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-29" value="" style="group" parent="wS505IJY1fHDSycIYa6W-69" vertex="1" connectable="0">
+          <mxGeometry x="262.5" y="170" width="165" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-26" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="wS505IJY1fHDSycIYa6W-29" vertex="1">
+          <mxGeometry x="22.5" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-27" value="&lt;font style=&quot;color: rgb(255, 0, 0); font-size: 16px;&quot;&gt;Only to servers listed on the Name Servers tab&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wS505IJY1fHDSycIYa6W-29" vertex="1">
+          <mxGeometry width="165" height="43.21" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-28" value="Chỉ cho phép các server nằm trong tab Name Servers" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wS505IJY1fHDSycIYa6W-29" vertex="1">
+          <mxGeometry x="27.5" y="65" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-34" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="wS505IJY1fHDSycIYa6W-69" vertex="1">
+          <mxGeometry y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-35" value="&lt;font style=&quot;font-size: 16px; color: rgb(255, 0, 0);&quot;&gt;Name server&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wS505IJY1fHDSycIYa6W-69" vertex="1">
+          <mxGeometry x="7.5" y="183.21" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-36" value="192.168.73.148" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wS505IJY1fHDSycIYa6W-69" vertex="1">
+          <mxGeometry x="30" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="wS505IJY1fHDSycIYa6W-69" source="wS505IJY1fHDSycIYa6W-26" target="wS505IJY1fHDSycIYa6W-34" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="300" as="sourcePoint" />
+            <mxPoint x="260" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-38" value="để máy kia nhận DNS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wS505IJY1fHDSycIYa6W-69" vertex="1">
+          <mxGeometry x="168" y="220" width="92" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.453;exitY=0.122;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.042;entryY=0.384;entryDx=0;entryDy=0;entryPerimeter=0;" parent="wS505IJY1fHDSycIYa6W-69" source="wS505IJY1fHDSycIYa6W-18" target="wS505IJY1fHDSycIYa6W-22" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="110" as="sourcePoint" />
+            <mxPoint x="650" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="53" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-33" value="" style="group" parent="wS505IJY1fHDSycIYa6W-69" vertex="1" connectable="0">
+          <mxGeometry x="265" y="324" width="145" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-30" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="wS505IJY1fHDSycIYa6W-33" vertex="1">
+          <mxGeometry x="12.5" y="43" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-31" value="&lt;font style=&quot;font-size: 16px; color: rgb(255, 0, 0);&quot;&gt;Only to the following servers&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wS505IJY1fHDSycIYa6W-33" vertex="1">
+          <mxGeometry width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-32" value="Chỉ cho phép đến các server cụ thể bạn chỉ định" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wS505IJY1fHDSycIYa6W-33" vertex="1">
+          <mxGeometry x="29" y="58" width="87" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="wS505IJY1fHDSycIYa6W-69" source="wS505IJY1fHDSycIYa6W-16" target="wS505IJY1fHDSycIYa6W-30" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="494" as="sourcePoint" />
+            <mxPoint x="460" y="444" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-52" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.023;exitY=0.39;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="wS505IJY1fHDSycIYa6W-69" source="wS505IJY1fHDSycIYa6W-16" target="wS505IJY1fHDSycIYa6W-28" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="310" as="sourcePoint" />
+            <mxPoint x="550" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-57" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-930" y="-310" width="240" height="417.28999999999996" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-10" value="" style="group" parent="wS505IJY1fHDSycIYa6W-57" vertex="1" connectable="0">
+          <mxGeometry y="159.99999999999994" width="240" height="257.29" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-8" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="wS505IJY1fHDSycIYa6W-10" vertex="1">
+          <mxGeometry y="37.29000000000002" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-9" value="&lt;font style=&quot;font-size: 16px; color: rgb(255, 0, 0);&quot;&gt;Forwarders&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wS505IJY1fHDSycIYa6W-10" vertex="1">
+          <mxGeometry x="70" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-11" value="&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;Forwarder là DNS server mà DNS server của bạn hỏi tiếp khi không biết câu trả lời.&lt;br&gt;- khác dns truy vấn mạng ngoài&amp;nbsp;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wS505IJY1fHDSycIYa6W-10" vertex="1">
+          <mxGeometry x="25" y="47.29" width="170" height="92.71" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-14" value="1.1.1.1&lt;br&gt;8.8.8.8" style="rounded=0;whiteSpace=wrap;html=1;" parent="wS505IJY1fHDSycIYa6W-57" vertex="1">
+          <mxGeometry x="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.569;entryY=1.022;entryDx=0;entryDy=0;entryPerimeter=0;" parent="wS505IJY1fHDSycIYa6W-57" source="wS505IJY1fHDSycIYa6W-9" target="wS505IJY1fHDSycIYa6W-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90" y="320" as="sourcePoint" />
+            <mxPoint x="-40" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="T99CXxRt97nMfTS7Bjkq-34" target="T99CXxRt97nMfTS7Bjkq-82" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-580" y="900" as="sourcePoint" />
+            <mxPoint x="-530" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-64" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-520" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-63" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="wS505IJY1fHDSycIYa6W-64" vertex="1">
+          <mxGeometry x="5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-60" value="&lt;font style=&quot;color: rgb(255, 0, 0); font-size: 16px;&quot;&gt;SVR1 Proferties&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="wS505IJY1fHDSycIYa6W-64" vertex="1">
+          <mxGeometry y="15" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-65" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.03;exitY=0.003;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.857;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="wS505IJY1fHDSycIYa6W-1" target="wS505IJY1fHDSycIYa6W-63" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-510" y="220" as="sourcePoint" />
+            <mxPoint x="-460" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-66" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.783;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="wS505IJY1fHDSycIYa6W-63" target="wS505IJY1fHDSycIYa6W-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-450" y="-40" as="sourcePoint" />
+            <mxPoint x="-400" y="-90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="wS505IJY1fHDSycIYa6W-63" target="wS505IJY1fHDSycIYa6W-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-730" y="80" as="sourcePoint" />
+            <mxPoint x="-680" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-73" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="wS505IJY1fHDSycIYa6W-1" target="wS505IJY1fHDSycIYa6W-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-800" y="320" as="sourcePoint" />
+            <mxPoint x="-750" y="270" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-75" value="&lt;font style=&quot;color: rgb(255, 0, 0); font-size: 16px;&quot;&gt;các bản ghi DNS Forwarder và Reverse&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-10;" parent="1" vertex="1">
+          <mxGeometry x="-710" y="397.71" width="299" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-78" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1400" y="153.21" width="230" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-76" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="wS505IJY1fHDSycIYa6W-78" vertex="1">
+          <mxGeometry y="40" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-77" value="&lt;font style=&quot;font-size: 16px; color: rgb(255, 0, 0);&quot;&gt;Tạo bản ghi&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wS505IJY1fHDSycIYa6W-78" vertex="1">
+          <mxGeometry x="45" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-79" value="Secondary Zone&lt;div&gt;&lt;br&gt;&lt;div&gt;ilab.vn&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;192.168.73.10&lt;/div&gt;&lt;div&gt;&lt;br&gt;SVR1.ilab.vn&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wS505IJY1fHDSycIYa6W-78" vertex="1">
+          <mxGeometry x="55" y="86.79" width="120" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-80" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.008;entryY=0.533;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.995;exitY=0.555;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="T99CXxRt97nMfTS7Bjkq-26" target="wS505IJY1fHDSycIYa6W-76" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="300" as="sourcePoint" />
+            <mxPoint x="1180" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-82" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" target="wS505IJY1fHDSycIYa6W-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1020" y="1651.6666666666667" as="sourcePoint" />
+            <mxPoint x="-950" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-83" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1020" y="1650" as="sourcePoint" />
+            <mxPoint x="1560" y="1640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-84" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" target="wS505IJY1fHDSycIYa6W-76" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1560" y="1640" as="sourcePoint" />
+            <mxPoint x="1410" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-85" value="&lt;font style=&quot;color: rgb(204, 0, 0); font-size: 16px;&quot;&gt;Transfer from master&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1570" y="590" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-88" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.013;entryY=0.458;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="wS505IJY1fHDSycIYa6W-76" target="wS505IJY1fHDSycIYa6W-89" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1640" y="310" as="sourcePoint" />
+            <mxPoint x="1740" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-91" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1880" y="233.71" width="168" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-89" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="wS505IJY1fHDSycIYa6W-91" vertex="1">
+          <mxGeometry width="168" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="wS505IJY1fHDSycIYa6W-90" value="&amp;nbsp;Nhận bản DNS forwarder và Reverse từ Primary server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wS505IJY1fHDSycIYa6W-91" vertex="1">
+          <mxGeometry x="29" y="38" width="110" height="92" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

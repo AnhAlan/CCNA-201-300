@@ -1,0 +1,465 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="IrXup9h5IjmuN8VdFzp1">
+    <mxGraphModel dx="4077" dy="2558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-3" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="320" y="450" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-3">
+          <mxGeometry width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-2" value="&lt;font style=&quot;color: rgb(255, 0, 0); font-size: 14px;&quot;&gt;Các lệnh kiểm tra trạng thái&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-3">
+          <mxGeometry x="35" y="15" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-6" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="130" y="-30" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-6">
+          <mxGeometry width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-5" value="show ip interface brief" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-6">
+          <mxGeometry x="37.42063492063492" y="15" width="130.15873015873018" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-9" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="610" y="-30" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-9">
+          <mxGeometry width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-8" value="show interface fa0/1 status" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-9">
+          <mxGeometry x="7.5" y="15" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-20" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-440" y="170" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-20">
+          <mxGeometry width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-19" value="show run | include ip helper" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-20">
+          <mxGeometry x="15" y="15" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-27" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1200" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-31" value="" style="group" vertex="1" connectable="0" parent="MzE596_4Jnmv4JPxS9dn-27">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-31">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-26" value="ping &amp;lt;ip&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-31">
+          <mxGeometry x="30" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-30" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1190" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-30">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-29" value="traceroute &amp;lt;ip&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-30">
+          <mxGeometry x="5" y="15" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-34" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-450" y="650" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-34">
+          <mxGeometry width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-33" value="show running-config | include helper" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-34">
+          <mxGeometry x="25" y="15" width="205" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MzE596_4Jnmv4JPxS9dn-35" target="MzE596_4Jnmv4JPxS9dn-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="233" y="210" />
+              <mxPoint x="233" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MzE596_4Jnmv4JPxS9dn-35" target="MzE596_4Jnmv4JPxS9dn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MzE596_4Jnmv4JPxS9dn-36" target="MzE596_4Jnmv4JPxS9dn-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-40" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MzE596_4Jnmv4JPxS9dn-36" target="MzE596_4Jnmv4JPxS9dn-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-40" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MzE596_4Jnmv4JPxS9dn-38" target="MzE596_4Jnmv4JPxS9dn-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MzE596_4Jnmv4JPxS9dn-1" target="MzE596_4Jnmv4JPxS9dn-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MzE596_4Jnmv4JPxS9dn-1" target="MzE596_4Jnmv4JPxS9dn-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MzE596_4Jnmv4JPxS9dn-1" target="MzE596_4Jnmv4JPxS9dn-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-57" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-170" y="450" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-57">
+          <mxGeometry width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-56" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Kiểm tra cấu hình IP Helper&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-57">
+          <mxGeometry x="25" y="15" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-59" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="820" y="450" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-38" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-59">
+          <mxGeometry width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-58" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Kiểm tra kết nối&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-59">
+          <mxGeometry x="20" y="15" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-62" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="350" y="180" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-64" value="" style="group" vertex="1" connectable="0" parent="MzE596_4Jnmv4JPxS9dn-62">
+          <mxGeometry x="2.5" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-64">
+          <mxGeometry x="7.5" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-60" value="&lt;strong data-end=&quot;914&quot; data-start=&quot;881&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Kiểm tra trạng thái giao diện&lt;/font&gt;&lt;/strong&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-64">
+          <mxGeometry y="15" width="205" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-72" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="87.5" y="-520" width="290" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-70" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-72">
+          <mxGeometry width="290" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-71" value="&lt;span style=&quot;&quot; data-end=&quot;135&quot; data-start=&quot;90&quot;&gt;- Kiểm tra nhanh trạng thái IP và giao diện&lt;/span&gt; (interface) của thiết bị mạng.&lt;div&gt;&lt;br&gt;&lt;div&gt;- Ở đây là &lt;span style=&quot;&quot; data-end=&quot;206&quot; data-start=&quot;176&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Switch Layer 3&lt;/font&gt; hoặc &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Router&lt;/font&gt;&lt;/span&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;.&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-72">
+          <mxGeometry x="16" y="15" width="258" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-75" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="570" y="-500" width="250" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-73" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-75">
+          <mxGeometry width="250" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-74" value="cung cấp thông tin nhanh về &lt;span style=&quot;&quot; data-end=&quot;103&quot; data-start=&quot;64&quot;&gt;trạng thái hoạt động của cổng Fa0/1&lt;/span&gt; trên switch&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Chỉ &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Switch&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-75">
+          <mxGeometry x="10" width="230" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MzE596_4Jnmv4JPxS9dn-7" target="MzE596_4Jnmv4JPxS9dn-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MzE596_4Jnmv4JPxS9dn-4" target="MzE596_4Jnmv4JPxS9dn-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-80" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-820" y="170" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-78" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-80">
+          <mxGeometry width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-79" value="xem ip của DHCP server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-80">
+          <mxGeometry x="30" y="15" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-83" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-960" y="650" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-81" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-83">
+          <mxGeometry width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-82" value="xem ip nào sẽ chuyển tiếp gói tin xin cấp dhcp" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-83">
+          <mxGeometry x="30" y="15" width="255" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-86" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-955" y="430" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-84" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-86">
+          <mxGeometry width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-85" value="192.168.1.1 gửi gói tin xin dhcp tới server 192.168.1.10" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-86">
+          <mxGeometry x="25" y="15" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-89" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-1120" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-87" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-89">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-88" value="192.168.1.10&lt;br&gt;ip DHCP server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-89">
+          <mxGeometry x="15" y="15" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MzE596_4Jnmv4JPxS9dn-78" target="MzE596_4Jnmv4JPxS9dn-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MzE596_4Jnmv4JPxS9dn-81" target="MzE596_4Jnmv4JPxS9dn-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MzE596_4Jnmv4JPxS9dn-84" target="MzE596_4Jnmv4JPxS9dn-87">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1060" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MzE596_4Jnmv4JPxS9dn-32" target="MzE596_4Jnmv4JPxS9dn-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MzE596_4Jnmv4JPxS9dn-18" target="MzE596_4Jnmv4JPxS9dn-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MzE596_4Jnmv4JPxS9dn-38" target="MzE596_4Jnmv4JPxS9dn-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="920" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-156" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-1130" y="1020" width="2495" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-21" value="" style="group" vertex="1" connectable="0" parent="MzE596_4Jnmv4JPxS9dn-156">
+          <mxGeometry x="2205" y="230" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-21">
+          <mxGeometry width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-17" value="show interface fa0/1 switchport" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-21">
+          <mxGeometry x="20" y="15" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MzE596_4Jnmv4JPxS9dn-156" source="MzE596_4Jnmv4JPxS9dn-37" target="MzE596_4Jnmv4JPxS9dn-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-15" value="" style="group" vertex="1" connectable="0" parent="MzE596_4Jnmv4JPxS9dn-156">
+          <mxGeometry x="1795" y="200" width="217" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-15">
+          <mxGeometry width="217" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-14" value="show interface trunk&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-15">
+          <mxGeometry x="24.25" y="15" width="168.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-61" value="" style="group" vertex="1" connectable="0" parent="MzE596_4Jnmv4JPxS9dn-156">
+          <mxGeometry x="1432.5" width="295" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-66" value="" style="group" vertex="1" connectable="0" parent="MzE596_4Jnmv4JPxS9dn-61">
+          <mxGeometry width="295" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-66">
+          <mxGeometry x="5" width="295" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-65" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Kiểm tra VLAN &amp;amp; Trunk &amp;amp; Switchoport&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-66">
+          <mxGeometry x="77.5" y="15" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MzE596_4Jnmv4JPxS9dn-156" source="MzE596_4Jnmv4JPxS9dn-37" target="MzE596_4Jnmv4JPxS9dn-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MzE596_4Jnmv4JPxS9dn-156" source="MzE596_4Jnmv4JPxS9dn-37" target="MzE596_4Jnmv4JPxS9dn-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-133" value="" style="group" vertex="1" connectable="0" parent="MzE596_4Jnmv4JPxS9dn-156">
+          <mxGeometry x="1803.5" y="560" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-131" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-133">
+          <mxGeometry width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-132" value="&amp;nbsp;kiểm tra các cổng đang hoạt động ở &lt;strong data-end=&quot;214&quot; data-start=&quot;198&quot;&gt;chế độ trunk&lt;/strong&gt; — cho phép truyền nhiều VLAN qua một cổng&lt;br&gt;- &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Chỉ Switch&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-133">
+          <mxGeometry x="15" y="25" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-140" value="" style="group" vertex="1" connectable="0" parent="MzE596_4Jnmv4JPxS9dn-156">
+          <mxGeometry x="795" y="230" width="590" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-139" value="" style="group" vertex="1" connectable="0" parent="MzE596_4Jnmv4JPxS9dn-140">
+          <mxGeometry width="560" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-12" value="" style="group" vertex="1" connectable="0" parent="MzE596_4Jnmv4JPxS9dn-139">
+          <mxGeometry x="285" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-12">
+          <mxGeometry width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-11" value="show vlan brief" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-12">
+          <mxGeometry x="30" y="15" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-115" value="" style="group" vertex="1" connectable="0" parent="MzE596_4Jnmv4JPxS9dn-139">
+          <mxGeometry x="80" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-116" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-115">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-117" value="Switch" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-115">
+          <mxGeometry x="30" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-123" value="" style="group" vertex="1" connectable="0" parent="MzE596_4Jnmv4JPxS9dn-139">
+          <mxGeometry y="290" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-147" value="" style="group" vertex="1" connectable="0" parent="MzE596_4Jnmv4JPxS9dn-123">
+          <mxGeometry x="45" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-121" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-147">
+          <mxGeometry width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-122" value="Hiển thị các VLAN đã tạo và các cổng thuộc về từng VLAN." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-147">
+          <mxGeometry x="20" y="20" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MzE596_4Jnmv4JPxS9dn-139" source="MzE596_4Jnmv4JPxS9dn-10" target="MzE596_4Jnmv4JPxS9dn-116">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="285" y="30" />
+              <mxPoint x="140" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MzE596_4Jnmv4JPxS9dn-139" source="MzE596_4Jnmv4JPxS9dn-116" target="MzE596_4Jnmv4JPxS9dn-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MzE596_4Jnmv4JPxS9dn-156" source="MzE596_4Jnmv4JPxS9dn-13" target="MzE596_4Jnmv4JPxS9dn-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MzE596_4Jnmv4JPxS9dn-156" source="MzE596_4Jnmv4JPxS9dn-37" target="MzE596_4Jnmv4JPxS9dn-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-145" value="" style="group" vertex="1" connectable="0" parent="MzE596_4Jnmv4JPxS9dn-156">
+          <mxGeometry x="2175" y="440" width="320" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-143" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-145">
+          <mxGeometry width="320" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-144" value="kiểm tra &lt;span style=&quot;&quot; data-end=&quot;151&quot; data-start=&quot;115&quot;&gt;trạng thái Layer 2 (chuyển mạch)&lt;/span&gt; của cổng FastEthernet0/1.&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-Nó cho biết cổng đó đang ở &lt;span style=&quot;&quot; data-end=&quot;225&quot; data-start=&quot;205&quot;&gt;trunk hay access&lt;/span&gt;, VLAN gì, và các thông số liên quan đến encapsulation, voice VLAN, v.v.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-145">
+          <mxGeometry x="15" y="20" width="290" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MzE596_4Jnmv4JPxS9dn-156" source="MzE596_4Jnmv4JPxS9dn-16" target="MzE596_4Jnmv4JPxS9dn-143">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-118" value="" style="group" vertex="1" connectable="0" parent="MzE596_4Jnmv4JPxS9dn-156">
+          <mxGeometry x="1335" y="365" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-119" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-118">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-120" value="show vlan" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-118">
+          <mxGeometry x="30" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MzE596_4Jnmv4JPxS9dn-156" source="MzE596_4Jnmv4JPxS9dn-10" target="MzE596_4Jnmv4JPxS9dn-119">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1395" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MzE596_4Jnmv4JPxS9dn-156" source="MzE596_4Jnmv4JPxS9dn-119" target="MzE596_4Jnmv4JPxS9dn-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-126" value="" style="group" vertex="1" connectable="0" parent="MzE596_4Jnmv4JPxS9dn-156">
+          <mxGeometry x="1280" y="550" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-124" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-126">
+          <mxGeometry width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-125" value="→ Chỉ hiện các VLAN mặc định (1, 1002–1005), &lt;span style=&quot;&quot; data-end=&quot;285&quot; data-start=&quot;241&quot;&gt;không hiện VLAN tùy chỉnh, không có cổng&lt;/span&gt;.&lt;br data-end=&quot;289&quot; data-start=&quot;286&quot;&gt;&lt;br&gt;&amp;nbsp;Không dùng để chia VLAN trực tiếp, trừ khi cấu hình &lt;span style=&quot;&quot; data-end=&quot;364&quot; data-start=&quot;343&quot;&gt;router-on-a-stick&lt;/span&gt;." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-126">
+          <mxGeometry x="5" y="50" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-24" value="" style="group" vertex="1" connectable="0" parent="MzE596_4Jnmv4JPxS9dn-156">
+          <mxGeometry x="305" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-24">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-23" value="show vlan" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-24">
+          <mxGeometry x="30" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-98" value="" style="group" vertex="1" connectable="0" parent="MzE596_4Jnmv4JPxS9dn-156">
+          <mxGeometry x="25" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-96" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-98">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-97" value="Switch" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-98">
+          <mxGeometry x="30" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-103" value="" style="group" vertex="1" connectable="0" parent="MzE596_4Jnmv4JPxS9dn-156">
+          <mxGeometry y="490" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-102" value="" style="rounded=0;whiteSpace=wrap;html=1;container=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-103">
+          <mxGeometry width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-100" value="&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td data-col-size=&quot;sm&quot; data-end=&quot;1220&quot; data-start=&quot;1207&quot;&gt;&lt;strong data-end=&quot;1219&quot; data-start=&quot;1209&quot;&gt;&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td data-end=&quot;1280&quot; data-start=&quot;1220&quot; data-col-size=&quot;md&quot;&gt;Toàn bộ VLAN đã tạo, trạng thái, port nào thuộc VLAN nào&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-103">
+          <mxGeometry x="10" y="30" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-109" value="" style="group" vertex="1" connectable="0" parent="MzE596_4Jnmv4JPxS9dn-156">
+          <mxGeometry x="420" y="490" width="310" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-107" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-109">
+          <mxGeometry width="310" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-108" value="hỉ hiển thị VLAN mặc định (1, 1002–1005), không dùng để cấu hình VLAN&lt;div&gt;&lt;br&gt;&lt;div&gt;-&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Trừ khi dùng &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-end=&quot;957&quot; data-start=&quot;931&quot;&gt;subinterface với dot1Q&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-109">
+          <mxGeometry x="17" y="60" width="276" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-112" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MzE596_4Jnmv4JPxS9dn-156" source="MzE596_4Jnmv4JPxS9dn-96" target="MzE596_4Jnmv4JPxS9dn-102">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="15" y="410" as="sourcePoint" />
+            <mxPoint x="75" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-148" value="" style="group" vertex="1" connectable="0" parent="MzE596_4Jnmv4JPxS9dn-156">
+          <mxGeometry x="515" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-104" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-148">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-105" value="Router" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-148">
+          <mxGeometry x="30" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MzE596_4Jnmv4JPxS9dn-156" source="MzE596_4Jnmv4JPxS9dn-22" target="MzE596_4Jnmv4JPxS9dn-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MzE596_4Jnmv4JPxS9dn-156" source="MzE596_4Jnmv4JPxS9dn-104" target="MzE596_4Jnmv4JPxS9dn-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MzE596_4Jnmv4JPxS9dn-156" source="MzE596_4Jnmv4JPxS9dn-22" target="MzE596_4Jnmv4JPxS9dn-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MzE596_4Jnmv4JPxS9dn-1" target="MzE596_4Jnmv4JPxS9dn-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-160" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1500" y="290" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-158" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-160">
+          <mxGeometry width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-159" value="Kiểm tra &lt;strong data-end=&quot;104&quot; data-start=&quot;88&quot;&gt;kết nối mạng&lt;/strong&gt; đến một thiết bị (IP đích)." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-160">
+          <mxGeometry x="5" y="15" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MzE596_4Jnmv4JPxS9dn-25" target="MzE596_4Jnmv4JPxS9dn-158">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-164" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1452.5" y="700" width="285" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-162" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-164">
+          <mxGeometry width="285" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-163" value="Xác định &lt;strong data-end=&quot;440&quot; data-start=&quot;428&quot;&gt;đường đi&lt;/strong&gt; (qua các router trung gian) từ thiết bị bạn đến IP đích." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MzE596_4Jnmv4JPxS9dn-164">
+          <mxGeometry x="12.5" y="15" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzE596_4Jnmv4JPxS9dn-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MzE596_4Jnmv4JPxS9dn-28" target="MzE596_4Jnmv4JPxS9dn-162">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
