@@ -1,3 +1,3 @@
-Folder này lấy từ GitHub repo: 
-Tác giả gốc: psaumur
-Mục đích sử dụng: học tập / tham khảo
+This folder is taken from the GitHub repo: https://github.com/psaumur/CCNA_Course_Notes/tree/main
+Original author: psaumur
+Purpose: learning/reference
