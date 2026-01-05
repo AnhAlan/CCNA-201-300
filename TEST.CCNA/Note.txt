@@ -1,7 +1,0 @@
-This application helps you practice CCNA questions.
-
-- Functionality is similar to a VCE Simulator.
-- CCNA 200-301 content is located in the `200-301` folder.
-- If you are unsure how to use it, please refer to YouTube tutorials or Google.
-
-Happy studying and good luck with CCNA! 🚀
