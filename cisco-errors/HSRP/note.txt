@@ -1,0 +1,3 @@
+HSRP requires all routers to be on the same Layer 2 network to exchange hello packets.
+It means the two routers do not need to be directly connected by a Layer 2 cable.
+They only need to be in the same Layer 2 network (for example, the same VLAN).

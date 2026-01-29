@@ -1,3 +1,0 @@
-This folder is taken from the GitHub repo: https://github.com/psaumur/CCNA_Course_Notes/tree/main
-Original author: psaumur
-Purpose: learning/reference

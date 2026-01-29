@@ -1,4 +1,0 @@
-This folder is taken from the GitHub repo: 
-https://github.com/Panagiss/ccna-200-301/tree/master
-Original author: Panagiss
-Purpose: learning / reference
