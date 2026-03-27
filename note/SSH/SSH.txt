@@ -1,0 +1,65 @@
+SSH use TCP port 22
+
+1. Change HOSTNAME
+router# -> R1#
+
+2. IP domain name
+note: Devices use FQDN to set name for RSA
+R1(config)# ip domain name annk.com 
+FQDN: Hostname + domain name -> R1.annk.com
+
+3. Create RSA key
+option 1: crypto key generate rsa -> bind 2048 bits
+option 2: crypto key generate rsa modulus 2048
+- 512 bits : weak
+- 1024 bits : normal
+- 2048 bits : recomend
+
+4. Create secret enable
+R1(config)# enable secret ccna
+
+5. Create user 
+option 1: username annk secret ccna
+option 2: username annk privilege 15 secret ccna (15 == admin)
+
+6. SSH versio 2
+- R1(config)# ip ssh version 2
+- If the router supports both SSH v1 and v2, it may show version 1.99.
+
+7. VTY line 0 15 (maximize 16 line)
+- R1(config)# line vty 0 15
+- R1(config-line)# login local          # only allow users created locally
+- R1(config-line)# transport input ssh  # only allow SSH connections
+
+8. (Optional) Restrict SSH Access with ACL
+- R1(config)# access-list 10 permit 192.168.1.100
+- R1(config)# line vty 0 15
+- R1(config-line)# access-class 10 in
+- Only the PC with IP 192.168.1.100 can access SSH.
+
+9. PC SSH to Devices
+option 1: ssh -l <users name> <ip-add>
+option 2: ssh username@ip-add
+
+
+# SSH configuration
+hostname R1
+ip domain-name annk.com
+
+crypto key generate rsa modulus 2048
+
+username admin privilege 15 secret 123456
+
+ip ssh version 2
+ip ssh time-out 90 \\ You have 90 seconds to log in.
+ip ssh authentication-retries 2 \\ You can get the password wrong a maximum of 2 times.
+access-list 10 permit 192.168.1.100
+
+line vty 0 15
+banner login # Welcome to R1. Unauthorized access prohibited! #  \\ Displayed when a user SSHs in.
+session-limit 2 \\ Only two SSH sessions are allowed simultaneously.
+logging synchronous \\ Avoid system messages interfering with your command input.
+login local
+transport input ssh
+exec-timeout 5 0
+access-class 10 in
