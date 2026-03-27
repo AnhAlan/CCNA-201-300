@@ -39,5 +39,4 @@ The purpose of DCE and DTE in a serial WAN connection is to synchronize data tra
     How to distinguish cables: DCE usually has a label on the connector.
 
 
-
 🔍 Other cable types automatically synchronize (each type will have a different synchronization method) without requiring manual configuration.
