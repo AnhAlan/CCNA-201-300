@@ -1,10 +1,10 @@
 Ethernet Standard Copper
 
-![Copper cable](Ethernet.png)
+![Copper cable](.\images\Ethernet.png)
 
 1. UTP (Unshielded Twisted Pair)
 
-    ![alt text](UTP.png)
+    ![alt text](.\images\UTP.png)
 
     This is a twin-strand cable - without shielding.
     Easy to install, inexpensive, and common in LANs.
@@ -14,7 +14,7 @@ Ethernet Standard Copper
 
 2. STP (Shielded Twisted Pair)
 
-    ![alt text](STP.png)
+    ![alt text](.\images\STP.png)
 
     It has shielding around each pair of wires or the entire cable.
     It reduces electromagnetic interference (EMI) better than UTP.
