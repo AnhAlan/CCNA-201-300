@@ -1,10 +1,10 @@
 Signal transmission via fiberglass or plastic fiber using light pulses.
 
-![alt text](./images/fiber.png)
+![alt text](/images/fiber.png)
 
 1. sơ đồ cáp quang thủy tinh (từ trong ra ngoài)
 
-![alt text](./images/fiber.diagram..png)
+![alt text](/images/fiber.diagram..png)
 
     Fiberglass -> transmits light pulses
     Light-reflecting sheath -> ensures light travels correctly and is not scattered
@@ -13,7 +13,7 @@ Signal transmission via fiberglass or plastic fiber using light pulses.
 
 2. two type
 
-![alt text](./images/fiber.type.png)
+![alt text](/images/fiber.type.png)
 
 - Multi - mod
     * Thicker fiberglass -> more light passes through at different angles -> faster signal attenuation
@@ -28,4 +28,4 @@ Signal transmission via fiberglass or plastic fiber using light pulses.
 
 3. Standard fiber
 
-    ![alt text](./images/fiber.standared.png)
+    ![alt text](/images/fiber.standared.png)
