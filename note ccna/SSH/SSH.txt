@@ -40,3 +40,26 @@ option 2: username annk privilege 15 secret ccna (15 == admin)
 9. PC SSH to Devices
 option 1: ssh -l <users name> <ip-add>
 option 2: ssh username@ip-add
+
+
+# SSH configuration
+hostname R1
+ip domain-name annk.com
+
+crypto key generate rsa modulus 2048
+
+username admin privilege 15 secret 123456
+
+ip ssh version 2
+ip ssh time-out 90 \\ You have 90 seconds to log in.
+ip ssh authentication-retries 2 \\ You can get the password wrong a maximum of 2 times.
+access-list 10 permit 192.168.1.100
+
+line vty 0 15
+banner login # Welcome to R1. Unauthorized access prohibited! #  \\ Displayed when a user SSHs in.
+session-limit 2 \\ Only two SSH sessions are allowed simultaneously.
+logging synchronous \\ Avoid system messages interfering with your command input.
+login local
+transport input ssh
+exec-timeout 5 0
+access-class 10 in
