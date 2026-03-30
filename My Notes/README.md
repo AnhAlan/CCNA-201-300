@@ -1,0 +1,1 @@
+This is everything I've learned and noted down !
