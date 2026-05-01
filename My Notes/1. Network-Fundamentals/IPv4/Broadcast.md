@@ -14,3 +14,6 @@ Every host in the subnet receives and processes broadcast packets.
     + Last host: 192.168.1.62
     + Broadcast: 192.168.1.63
     + Next subnet 192.168.1.64/26 → broadcast = 192.168.1.127
+
+3. Note
+- nhiều broadcast không cần thiết sẽ làm chậm mạng -> giảm lưu lượng -> chia mạng nhỏ -> vlan - vlsm

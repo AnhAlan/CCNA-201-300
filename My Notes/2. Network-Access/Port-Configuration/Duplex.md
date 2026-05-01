@@ -40,3 +40,9 @@
     + GigabitEthernet 1000 : full \ auto
 * Serial
     + allways full -> only config DTE & DCE
+
+5. Note
+- make sure 2 deives same duplex puzzle:
+    * auto - auto
+    * manual - manual
+-> 

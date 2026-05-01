@@ -2,6 +2,14 @@
 └── 📁My Notes
     └── 📁1. Network-Fundamentals
         └── 📁Cable
+            └── 📁Cat
+                ├── cat-3.md
+                ├── cat-5.md
+                ├── cat-5e.md
+                ├── cat-6.md
+                ├── cat-6a.md
+                ├── cat-7.md
+                ├── cat-8.md
             └── 📁images
                 ├── Ethernet.png
                 ├── fiber.diagram..png
@@ -19,70 +27,110 @@
             ├── serial.md
             ├── SFP.md
         └── 📁Devices
-            └── 📁Hub
             ├── DRAM.md
+            ├── Hub.md
             ├── NVRAM.md
-        └── 📁Ethernet
-            └── 📁images
-                ├── Ethernet.Frame.png
-            ├── Frame-Structure.md
-            ├── Frame-Types.md
-            ├── MAC-Learning.md
+        └── 📁IEEE
+            ├── IEEE.md
         └── 📁IPv4
             ├── Broadcast.md
             ├── Class.md
+            ├── FLSM.md
+            ├── header.md
             ├── Loopback.md
+            ├── VLSM.md
         └── 📁IPv6
         └── 📁LAN-Architectures
         └── 📁Model
             └── 📁OSI
+                └── 📁Ethernet
+                    └── 📁images
+                        ├── Ethernet.Frame.png
+                    ├── Frame-Structure.md
+                    ├── Frame-Types.md
+                    ├── MAC-Learning.md
+                └── 📁Packet
+                └── 📁Physical
+                    ├── physical.md
+                └── 📁Transport-Layer
+            └── 📁TCP-IP
         └── 📁PoE
             └── 📁images
                 ├── inside.png
                 ├── standard.png
             ├── note.md
-        └── 📁Transport-Layer
     └── 📁2. Network-Access
         └── 📁CDP-LLDP
+            └── 📁CDP
+            └── 📁LLDP
+                ├── configure.md
         └── 📁DTP
+            ├── note.md
         └── 📁EtherNetChannel
+        └── 📁Interface
+            ├── input_output.md
         └── 📁Port-Configuration
             ├── CSMA-CD.md
             ├── Duplex.md
             ├── Mistmatch.md
             ├── Speed.md
         └── 📁STP
+            ├── bpdu.md
         └── 📁Switch
             ├── forwarding.md
             ├── mac-table.md
-            ├── physical.md
+        └── 📁Trunk
+            ├── IEEE.802.1Q.md
+            ├── ISL.md
         └── 📁VLAN
+            ├── Native-vlan.md
+            ├── ROAS.md
+            ├── Some-Configura.md
+            ├── SVIs.md
         └── 📁Voice-Vlan
         └── 📁VTP
     └── 📁3. IP-Connectivity
         └── 📁ARP
+            ├── Dynamic-ARP-Inspection.md
             ├── note.md
-        └── 📁Dynamic-ARP-Inspection
-        └── 📁Dynamic-Routing
         └── 📁FHRP
         └── 📁HSRP
             ├── note.md
         └── 📁ICMP
             ├── note.md
+            ├── RTT.md
+            ├── TTL.md
         └── 📁Router
         └── 📁Routing
+            ├── Basic-Packet-Processing.md
+            ├── Classful-Routing.md
+            ├── Classless-Routing.md
+            ├── Default-Route.md
+            ├── Distance-vector.md
+            ├── Dynamic-Routing.md
+            ├── EIGRP.md
+            ├── Link-State.md
             ├── note.md
+            ├── OSPF.md
+            ├── Rip.md
+            ├── Route-Selection.md
+            ├── Static.md
         └── 📁WAN
     └── 📁4. IP-Services
         └── 📁DHCP
         └── 📁DNS
         └── 📁FTP-TFTP
         └── 📁NAT
+            ├── configu.md
+            ├── note.md
         └── 📁NTP
         └── 📁QoS
+            ├── note.md
+            ├── Per-HopBehavior.md
         └── 📁SNMP
     └── 📁5. Security-Fundamentals
         └── 📁AAA
+            ├── Local-User.md
         └── 📁ACL
         └── 📁Port-Security
         └── 📁Reset-Recovery
@@ -94,12 +142,15 @@
             ├── telnet.md
         └── 📁Syslog
         ├── Authentication.md
-        ├── Local-User.md
     └── 📁6. Automation-And-Programmability
         └── 📁Cisco-DNA
         └── 📁Controller-Based
         └── 📁JSON
         └── 📁REST-API
         └── 📁SDN
+    └── 📁note-exam
+        ├── 19-4.md
+        ├── 20-4.md
+        ├── 21-4.md
     └── README.md
 ```

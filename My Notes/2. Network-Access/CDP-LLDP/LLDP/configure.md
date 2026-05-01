@@ -1,0 +1,3 @@
+- lldp holdtime <seconds> : Thời gian giữ thông tin của neighbor
+- lldp timer <second> : Tần suất gửi bản tin LLDP
+- lldp reinit <second> : Thời gian chờ để LLDP khởi động lại trên interface
