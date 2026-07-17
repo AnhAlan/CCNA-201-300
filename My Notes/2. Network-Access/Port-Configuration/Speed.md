@@ -1,5 +1,11 @@
-- Ensure both devices are running at the same speed.
-- Auto-negotiation is good, but be careful when mixing old and new devices.
-- Show commands:
-    * Show interfaces
-    * Show running-config
+- Đảm bảo cả hai thiết bị chạy cùng tốc độ (speed)
+    - Nếu lệch speed → dễ gây lỗi truyền và giảm hiệu suất
+- Auto-negotiation là tốt
+    - Nhưng cần cẩn thận khi kết hợp thiết bị cũ và mới
+    - Có thể xảy ra mismatch (speed/duplex không đồng bộ)
+---
+## Lệnh kiểm tra
+- Show interfaces
+    - Kiểm tra trạng thái interface (speed, duplex, errors)
+- Show running-config
+    - Kiểm tra cấu hình hiện tại của thiết bị

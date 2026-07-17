@@ -1,0 +1,6 @@
+- Hỗ trợ Fast Ethernet (100Base-TX).
+- Tốc độ tối đa: 100 Mbps.
+- Băng thông: 100 MHz.
+- Khoảng cách tối đa: 100 mét.
+- Là chuẩn phổ biến cuối thập niên 1990.
+- Đã được thay thế bởi Cat5e.

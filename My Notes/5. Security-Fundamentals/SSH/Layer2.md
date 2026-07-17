@@ -1,31 +1,38 @@
-Layer 2 switches do not have a physical IP for remote access.
-To allow SSH/Telnet, we create an SVI (Switch Virtual Interface).
+# Switch Layer 2 – Truy cập từ xa (SSH / Telnet)
 
-1. Create SVI (Management IP)
-Switch(config)#int vlan 1
-Switch(config-if)#ip add 192.168.1.5 255.255.255.0
-Switch(config-if)#no shut
+- Switch Layer 2 không có địa chỉ IP vật lý để truy cập từ xa  
+- Để dùng SSH/Telnet, cần tạo SVI (Switch Virtual Interface)  
 
-2. gateway
-Switch(config)#ip default-gateway 192.168.1.1 (ip router)
-- Ensures PCs from other subnets can reach the switch for SSH/Telnet.
+## 1. Tạo SVI (IP quản trị)
 
-3. Create User for SSH/Telnet Login
-# Normal user
-Switch(config)# username annk secret ccna
+- Switch(config)#int vlan 1  
+- Switch(config-if)#ip add 192.168.1.5 255.255.255.0  
+- Switch(config-if)#no shut  
 
-# Admin user
-Switch(config)# username annk privilege 15 secret ccna
+## 2. Default Gateway
 
-For SSH only: you also need hostname, domain name, and RSA key (read SSH.txt) 
-Telnet does not require RSA key.
+- Switch(config)#ip default-gateway 192.168.1.1 (ip router)  
+- Cho phép PC ở mạng khác truy cập switch qua SSH/Telnet  
 
-4.config line vty 
-- line 0 15
-- login local
-- transport input ssh\telnet (or both if we want)
+## 3. Tạo User đăng nhập SSH/Telnet
 
-✅ Notes
-Telnet: plain text → insecure
-SSH: encrypted → preferred
-Make sure VLAN used for SVI is active and connected to router for inter-LAN access.
+- User thường  
+- Switch(config)# username annk secret ccna  
+
+- User admin  
+- Switch(config)# username annk privilege 15 secret ccna  
+
+- Chỉ dùng SSH cần thêm hostname, domain name và RSA key (xem SSH.txt)  
+- Telnet không cần RSA key  
+
+## 4. Cấu hình line VTY
+
+- line 0 15  
+- login local  
+- transport input ssh telnet (hoặc cả hai nếu cần)  
+
+## Ghi chú
+
+- Telnet: truyền dữ liệu dạng plain text → không an toàn  
+- SSH: đã mã hóa → nên sử dụng  
+- VLAN dùng cho SVI phải active và kết nối được với router để truy cập liên mạng  

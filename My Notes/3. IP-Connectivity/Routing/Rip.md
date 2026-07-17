@@ -1,65 +1,134 @@
-- Rip - Routing information protocol (Giao thức thông tin định tuyến)
-- có metric: hop-count, tối đa là 15
-    * mỗi router là 1 hop
-    * di tới 16 router = unreachable (không tới được)
-- có 3 version:
-    * RIPv1 -> IPv4
-    * RIPv2 -> IPv4
-    * RIPv3 -> IPv6
+# 1. RIP
 
-# 1. Message
-- Rip có 2 gói tin
-    * Request: hỏi rotuer liền kề bật rip -> để gửi gói tin cho nhau
-    * Reponse: gửi nội bộ bảng định tuyến
-- mỗi update gói tin sẽ được gởi mỗi 30 giây
+- RIP - Routing Information Protocol (Giao thức thông tin định tuyến)
+- Là giao thức Dynamic Routing kiểu Distance Vector
+- Metric
+	* Hop Count
+	* Mỗi Router = 1 Hop
+	* Tối đa 15 Hop
+	* Metric = 16 -> Unreachable
+- Administrative Distance
+	* RIP = 120
+- Transport
+	* UDP Port 520 (IPv4)
+	* UDP Port 521 (RIPng)
+- Chu kỳ gửi Update
+	* Mỗi 30 giây
+	* Khi topology thay đổi sẽ gửi Triggered Update
+- Có 3 phiên bản
+	* RIPv1 -> IPv4
+	* RIPv2 -> IPv4
+	* RIPng (RIPv3) -> IPv6
 
-# 2. Version
+# 2. Message
 
-## 2.1. RIPv1
-- chỉ quảng bá các classfull gồm A, B và C
-- không hổ trợ VLSM và CIDR (tức không hổ trợ các mạng không có chia subnet-mask)
-    * với mạng 10.1.1.0/24 thì sẽ bị hiểu thành 10.0.0.0 A
-    * 172.16.192.0/18 ->  172.16.0.0 B
-- chỉ gửi message đến broadcast *255.255.255.255*
-- các Router nội bộ sẽ nhận
+- RIP có 2 loại Message
+	* Request
+		** Yêu cầu Neighbor gửi Routing Table
+	* Response
+		** Chứa Routing Update
+		** Được gửi định kỳ mỗi 30 giây
+		** Gửi ngay khi topology thay đổi (Triggered Update)
 
-## 2.2. RIPv2
-- có hổ trợ VLSM và CIDR
-- các gói tin RIP sẽ mang theo subnet mask trong update
-- multicast: **224.0.0.9**
-- chỉ rotuer RIP mới nhận -> giảm tải mạng
-- Subnet quảng bá gửi kèm:
-    * Network 
-    * Subnet mask (prefix length) 
-- các router sẽ quét tất các interface 
-    * check ip thuộc network nào
-    * Interface có bật RIP không
-    * Nếu có RIP -> send/recive RIP update qua interface đó
-- mặc định RIPv2 bật auto-summary
-    * auto-summary là: Khi gửi route qua khác class network boundary -> RIP sẽ tự gom về classful network
-        * khi có 2 mạng là 192.168.1.0/24 và 192.168.2.0/24 -> RIP sẽ gom thành 192.168.0.0/16 để gửi ra ngoài
-    * ta nên tắt auto-summary do:
-        * Gây sai route trong:
-        * VLSM
-        * WAN nhiều subnet
-        * Topology phức tạp
+# 3. Version
 
-# 2.3. RIPv3
-- sử dụng trong IPv6
-- Về bản chất giống RIPv2 nhưng mở rộng IPv6
+## 3.1. RIPv1
 
-# 3. Một số lưu ý
-- rip
-    * network 10.0.0.0
-- khi khai báo network 10.0.0.0 thì Router sẽ so sánh với classful network 10.0.0.0/8 Tức là kiểm tra interface nào có IP thuộc 10.x.x.x
-    * ví dụ 2 giao diện sử dụng RIP có ip 10.0.12.1/24 và 10.0.13.1/24 sẽ **MATCH** 
-- network không nói router mạng được quảng bá -> mà nói giao diện nào đang bật RIP -> router sẽ quảng bá prefix của giao diện đó
-- nếu Router dùng RIP kết nối không phải *layer 3* thì nó vẫn gửi gói RIP update tới giao diện đó -> sẽ tạo ra lưu lượng mạng không cần thiết
-    * R1(config-router)# passive-interface g2/0
-    * lệnh sẽ không gửi bảng định tuyến đến giao diện đso
-    * nhưng vẫn gửi bảng định tuyến của giao diện đó đến các mạng layer 3 khác
-- quảng bá 0.0.0.0/0 ra internet
-    * ip route 0.0.0.0 0.0.0.0 <ip giao diện ra internet>
-    * báo với router khác là router này sẽ ra internat đối với các gói tin muốn gửi ra ngoài
-- R1(config-router)# default-information orginate
-    * chia sẻ default router đến các router khác trong cùng AS
+- Chỉ hỗ trợ Classful Routing
+- Không hỗ trợ VLSM
+- Không hỗ trợ CIDR
+- Không gửi Subnet Mask trong Update
+- Broadcast
+	* 255.255.255.255
+- Auto Summary mặc định
+
+## 3.2. RIPv2
+
+- Hỗ trợ Classless Routing
+- Hỗ trợ VLSM
+- Hỗ trợ CIDR
+- Gửi kèm Prefix Length (Subnet Mask)
+- Multicast
+	* 224.0.0.9
+- Chỉ Router chạy RIP mới nhận Update
+- Mặc định bật Auto Summary
+	* Nên tắt bằng no auto-summary
+
+## 3.3. RIPng
+
+- Dùng cho IPv6
+- Tương tự RIPv2
+- UDP Port 521
+
+# 4. Network
+
+- Lệnh network dùng để chọn Interface chạy RIP
+- Không dùng để quảng bá trực tiếp Network
+- Router sẽ kiểm tra các Interface thuộc Major Network
+	* Ví dụ
+		** network 10.0.0.0
+		** Interface 10.1.1.1/24 -> Match
+		** Interface 10.2.1.1/24 -> Match
+		** Interface 192.168.1.1/24 -> Không Match
+
+# 5. Auto Summary
+
+- Mặc định RIPv2 bật Auto Summary
+- Khi Route đi qua Classful Boundary
+	* RIP sẽ tự động gộp Route về Classful Network
+- Ví dụ
+	* 172.16.1.0/24
+	* 172.16.2.0/24
+	* Gửi thành 172.16.0.0/16
+- Không nên dùng trong
+	* VLSM
+	* CIDR
+	* WAN nhiều Subnet
+	* Topology phức tạp
+
+# 6. Passive Interface
+
+- Chặn gửi RIP Update trên Interface
+- Vẫn quảng bá Network của Interface đó đến Router khác
+- Giảm lưu lượng không cần thiết
+- Tăng bảo mật
+
+# 7. Default Route
+
+- Tạo Default Route
+	* ip route 0.0.0.0 0.0.0.0 <next-hop>
+
+- Quảng bá Default Route
+	* default-information originate
+
+# 8. Loop Prevention
+
+- Split Horizon
+	* Không quảng bá Route trở lại Interface đã học
+
+- Route Poisoning
+	* Khi Route bị lỗi
+		** Metric = 16
+
+- Poison Reverse
+	* Gửi lại Route với Metric = 16
+
+- Hold-down Timer
+	* Tạm thời không nhận Route kém hơn
+
+- Triggered Update
+	* Gửi Update ngay khi Topology thay đổi
+
+# 9. Timer
+
+- Update Timer
+	* 30 giây
+
+- Invalid Timer
+	* 180 giây
+
+- Hold-down Timer
+	* 180 giây
+
+- Flush Timer
+	* 240 giây

@@ -1,30 +1,53 @@
 ![alt text](images/Ethernet.Frame.png)
 
-- Preamble (7 bytes) – Used to synchronize signals between the sender and receiver.
-- Start Frame Delimiter (SFD, 1 byte) – Defines the start of the data frame.
-- Destination MAC (6 bytes) – MAC address of the receiving device.
-- Source MAC (6 bytes) – MAC address of the sending device.
-- Type/Length (2 bytes) –
-- For Ethernet II: this is the Type that identifies the protocol (e.g., 0x0800 = IPv4).
-- For IEEE 802.3: this is the Length that indicates the length of the payload data.
-- Payload/Data (46–1500 bytes) – Actual network data (can be IP, ARP, etc.).
-- Frame Check Sequence (FCS, 4 bytes) – Uses CRC to check for data errors.
-    * CRC (Cyclic Redundancy Check) detects errors by performing binary polynomial division. It uses a fixed generating polynomial G(x) to generate a check cipher, which helps detect errors.
-    * Internally, divide the original data plus the remainder by the "number of polynomial bits".
-        If it equals 0, the data is valid.
-        If it is not 0, the data is corrupted.
-    * CRC so hard understand -> summary
-        Choose data A and a generator polynomial f(x).
-        Calculate the CRC: B = A + CRC (remainder when A is divided by f(x))
-        Send B over the network.
-        The receiver recalculates:
-            (B divided by f(x)) → remainder
-            If remainder = 0 → data is correct
-            If remainder ≠ 0 → data has an error
+- Preamble (7 bytes)
+    - Dùng để đồng bộ tín hiệu giữa bên gửi và bên nhận.
 
-- Regarding Ethernet II vs IEEE 802.3 in the image:
-- IEEE 802.3 has a Length field.
-    * old -> length of payload 
-- Ethernet II has a Type field.
-    * define which protocol are use on layer 3 to process 
-- The minimum payload is 46 bytes; padding will be added if the data is smaller.
+- Start Frame Delimiter (SFD, 1 byte)
+    - Xác định điểm bắt đầu của frame dữ liệu.
+
+- Destination MAC (6 bytes)
+    - Địa chỉ MAC của thiết bị nhận.
+
+- Source MAC (6 bytes)
+    - Địa chỉ MAC của thiết bị gửi.
+
+- Type/Length (2 bytes)
+    - Với Ethernet II:
+        + Là Type → xác định giao thức tầng trên (ví dụ 0x0800 = IPv4)
+    - Với IEEE 802.3:
+        + Là Length → xác định độ dài phần payload
+
+- Payload/Data (46–1500 bytes)
+    - Dữ liệu thực tế trong mạng (IP, ARP, v.v.)
+
+- Frame Check Sequence (FCS, 4 bytes)
+    - Dùng CRC để kiểm tra lỗi dữ liệu.
+
+    - CRC (Cyclic Redundancy Check)
+        + Phát hiện lỗi bằng phép chia nhị phân đa thức
+        + Dùng một đa thức sinh cố định G(x) để tạo mã kiểm tra
+
+    - Cách hiểu đơn giản:
+        + Chia dữ liệu gốc cho đa thức sinh → lấy phần dư
+        + Gắn phần dư vào dữ liệu để tạo frame gửi đi
+
+    - Bên nhận:
+        + Chia lại frame cho cùng đa thức
+        + Nếu dư = 0 → dữ liệu đúng
+        + Nếu dư ≠ 0 → dữ liệu bị lỗi
+
+- Ethernet II vs IEEE 802.3
+
+- IEEE 802.3
+    - Có trường Length
+    - Dùng để chỉ độ dài payload (chuẩn cũ)
+
+- Ethernet II
+    - Có trường Type
+    - Dùng để xác định giao thức tầng trên (Layer 3)
+
+
+- Lưu ý quan trọng
+    - Payload tối thiểu: 46 bytes
+    - Nếu nhỏ hơn → sẽ được padding thêm dữ liệu

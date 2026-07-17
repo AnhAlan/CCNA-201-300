@@ -1,29 +1,95 @@
-Switch#show int fa0/1
-FastEthernet0/1 is down, line protocol is down (disabled)
-  Hardware is Lance, address is 000a.4161.5101 (bia 000a.4161.5101)
- BW 100000 Kbit, DLY 1000 usec,
-     reliability 255/255, txload 1/255, rxload 1/255
-  Encapsulation ARPA, loopback not set
-  Keepalive set (10 sec)
-  Half-duplex, 100Mb/s
-  input flow-control is off, output flow-control is off
-  ARP type: ARPA, ARP Timeout 04:00:00
-  Last input 00:00:08, output 00:00:05, output hang never
-  Last clearing of "show interface" counters never
-  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
-  Queueing strategy: fifo
-  Output queue :0/40 (size/max)
-  5 minute input rate 0 bits/sec, 0 packets/sec
-  5 minute output rate 0 bits/sec, 0 packets/sec
-     956 packets input, 193351 bytes, 0 no buffer
-     Received 956 broadcasts, 0 runts, 0 giants, 0 throttles
-     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
-     0 watchdog, 0 multicast, 0 pause input
-     0 input packets with dribble condition detected
-     2357 packets output, 263570 bytes, 0 underruns
-     0 output errors, 0 collisions, 10 interface resets
-     0 babbles, 0 late collision, 0 deferred
-     0 lost carrier, 0 no carrier
-     0 output buffer failures, 0 output buffers swapped out
+# Trạng thái Interface Switch
 
-     
+## Lệnh
+```bash
+Switch#show int fa0/1
+```
+
+---
+
+## Trạng thái
+- FastEthernet0/1 is down - interface đang bị down về vật lý hoặc bị shutdown
+- Line protocol is down (disabled) - giao thức Layer 2 không hoạt động
+
+---
+
+## Thông tin phần cứng
+- Hardware: Lance - loại phần cứng của interface
+- MAC Address: 000a.4161.5101 - địa chỉ MAC của interface
+- BIA: 000a.4161.5101 - MAC gốc từ nhà sản xuất
+
+---
+
+## Hiệu năng
+- Bandwidth: 100000 Kbit (100 Mbps) - tốc độ cấu hình của interface
+- Delay: 1000 usec - độ trễ xử lý nội bộ
+- Reliability: 255/255 - độ ổn định của interface (255 là tốt nhất)
+- TX Load: 1/255 - mức tải gửi ra (rất thấp)
+- RX Load: 1/255 - mức tải nhận vào (rất thấp)
+
+---
+
+## Cấu hình interface
+- Encapsulation: ARPA - kiểu đóng gói frame Ethernet
+- Loopback: not set - không bật chế độ loopback
+- Keepalive: 10 sec - thời gian kiểm tra kết nối định kỳ
+- Duplex: Half-duplex - chỉ gửi hoặc nhận tại một thời điểm
+- Speed: 100 Mb/s - tốc độ đường truyền hiện tại
+
+---
+
+## Điều khiển luồng
+- Input flow-control: off - không điều khiển luồng dữ liệu vào
+- Output flow-control: off - không điều khiển luồng dữ liệu ra
+
+---
+
+## Thông tin ARP
+- ARP Type: ARPA - kiểu đóng gói ARP
+- ARP Timeout: 04:00:00 - thời gian hết hạn của bản ghi ARP
+
+---
+
+## Hoạt động
+- Last input: 00:00:08 - thời gian từ lần nhận gói gần nhất
+- Last output: 00:00:05 - thời gian từ lần gửi gói gần nhất
+- Output hang: never - không có tình trạng treo khi gửi
+
+---
+
+## Thống kê input
+- Packets input: 956 - tổng số gói tin nhận được
+- Bytes received: 193351 - tổng số byte đã nhận
+- Broadcasts received: 956 - số gói broadcast nhận được
+- Runts: 0 - gói tin quá nhỏ (không có lỗi)
+- Giants: 0 - gói tin quá lớn (không có lỗi)
+- CRC errors: 0 - lỗi kiểm tra dữ liệu (không có)
+- Frame errors: 0 - lỗi khung dữ liệu
+- Overrun: 0 - tràn bộ đệm phần cứng
+- Ignored: 0 - gói bị bỏ qua do thiếu tài nguyên
+
+---
+
+## Thống kê output
+- Packets output: 2357 - tổng số gói đã gửi
+- Bytes output: 263570 - tổng số byte đã gửi
+- Output errors: 0 - không có lỗi khi gửi
+- Collisions: 0 - không có va chạm tín hiệu
+- Interface resets: 10 - số lần interface bị reset
+
+---
+
+## Tổng kết lỗi
+- No input errors - không có lỗi khi nhận
+- No CRC errors - không có lỗi dữ liệu
+- No frame errors - không có lỗi frame
+- No output buffer failures - không lỗi bộ nhớ đệm
+- No late collisions - không có va chạm trễ
+
+---
+
+## Hiểu nhanh
+- down/down - lỗi cáp hoặc port vật lý
+- half-duplex - chế độ truyền cũ
+- zero errors - kết nối Layer 1 tốt
+- broadcast cao - bình thường trong LAN

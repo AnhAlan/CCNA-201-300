@@ -1,0 +1,7 @@
+- Xuất hiện đầu những năm 1990.
+- Hỗ trợ Ethernet 10Base-T.
+- Tốc độ tối đa: 10 Mbps.
+- Băng thông: 16 MHz.
+- Sử dụng đầu nối RJ45.
+- Hiện nay gần như không còn sử dụng.
+- Chủ yếu dùng cho hệ thống điện thoại cũ.

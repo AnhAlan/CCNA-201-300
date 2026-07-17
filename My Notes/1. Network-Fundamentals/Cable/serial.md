@@ -1,41 +1,34 @@
-serial is cable Wan, usually use Point-To-Point -> not use anymore
+- Serial là cáp WAN, thường sử dụng kết nối Point-To-Point -> hiện nay hầu như không còn được sử dụng.
+- Nhà cung cấp dịch vụ Internet (ISP) đóng vai trò là DCE.
+- Thiết bị của bạn (router) đóng vai trò là DTE.
 
-The Internet Service Provider (ISP) acts as the DCE.
-Your device (router) is the DTE.
+- 1. Serial DCE (Data Circuit-terminating Equipment)
+- Thiết bị cung cấp tín hiệu clock cho kết nối.
+- Ví dụ: Router kết nối tới CSU/DSU.
+- Cáp được kết nối vào cổng DCE, router nhận clock từ DCE.
+- Lệnh trên Cisco để kiểm tra:
+    + Router#show controllers serial0/1/0
+- Kết quả sẽ hiển thị DCE hoặc DTE.
+- Nếu là DCE, bạn có thể thiết lập clock rate:
+    + Router(config)#int serial 0/1/0
+    + Router(config-if)#clock rate 64000
 
-1. Serial DCE (Data Circuit-terminating Equipment)
-- The device provides the clock signal for the connection.
-- Example: Router connected to CSU/DSU.
-- The cable is connected to the DCE port, the router gets the clock from the DCE.
+- Lệnh này chỉ áp dụng cho các interface DCE.
+- 64000 = 64.000 bit/giây (64 Kbps)
+    + 64.000 bit được truyền trong mỗi giây.
+    + Đây cũng là tốc độ clock mà DCE truyền đi.
 
-- Command on Cisco to view:- 
-- Router#show controllers serial0/1/0
-- It will display DCE or DTE.- 
-
-- If it's DCE, you can set the clock rate:
-- Router(config)#int serial 0/1/0
-- Router(config-if)#clock rate 64000
-- This command applies only to DCE interfaces- 
-
-- 64000 = 64,000 bits/second (64 Kbps)
-    + 64,000 bits are transmitted per second.
-    + This is also the clock speed at which DCE transmits.
-
-2. Sereal DTE (Data Terminal Equipment)
-- The device receives the clock from the DCE.
-- Usually, this is the router at the other end of the connection.
-- There is no need to set the clock rate, as the DTE does not provide the clock signal.
-
-- Serial requires DCE/DTE because…
-- Data is transmitted bit-by-bit using a separate clock.
-- There is no built-in clock in the signal.
-- A clock generator (DCE) is required.
-- The purpose of DCE and DTE in a serial WAN connection is to synchronize data transmission.
-
-✅ Remember:
-- DCE provides the clock signal → configuration on the DCE is mandatory.
-- DTE receives the signal → clock configuration is not required.
-- How to distinguish cables: DCE usually has a label on the connector.
-
-
-🔍 Other cable types automatically synchronize (each type will have a different synchronization method) without requiring manual configuration.
+2. Serial DTE (Data Terminal Equipment)
+- Thiết bị nhận tín hiệu clock từ DCE.
+- Thông thường đây là router ở đầu còn lại của kết nối.
+- Không cần cấu hình clock rate vì DTE không cung cấp tín hiệu clock.
+- Serial cần DCE/DTE vì...
+- Dữ liệu được truyền từng bit một bằng tín hiệu clock riêng.
+- Không có clock được tích hợp sẵn trong tín hiệu.
+- Cần một thiết bị tạo clock (DCE).
+- Mục đích của DCE và DTE trong kết nối WAN Serial là đồng bộ hóa việc truyền dữ liệu.
+- Ghi nhớ:
+    + DCE cung cấp tín hiệu clock → bắt buộc cấu hình trên DCE.
+    + DTE nhận tín hiệu → không cần cấu hình clock.
+    + Cách phân biệt cáp: DCE thường có nhãn trên đầu kết nối.
+- Các loại cáp khác tự động đồng bộ hóa (mỗi loại sẽ có cơ chế đồng bộ khác nhau) mà không cần cấu hình thủ công.

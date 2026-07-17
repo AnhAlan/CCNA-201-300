@@ -1,34 +1,48 @@
-Power over Ethernet (PoE) 
-1 LAN cable = both data transmission and power supply
-No separate adapter needed for the device
+Power over Ethernet (PoE)
 
-- Which devices are they for:
+- 1 cáp LAN = vừa truyền dữ liệu vừa cấp nguồn điện
+- Không cần adapter nguồn riêng cho thiết bị
+
+---
+
+- Thiết bị sử dụng PoE:
     * Access Point (AP)
     * IP Camera
     * IP Phone
     * IoT devices
-- -> In general: network devices located far from power outlets
+    * → Nói chung: thiết bị mạng đặt xa ổ điện
 
-- How it works
-    * There are two main components:
+---
+
+- Cách hoạt động
+
+    - Gồm 2 thành phần chính:
         + PSE (Power Sourcing Equipment)
-            → Switch or injector that supplies power
+            → Switch hoặc injector cung cấp nguồn điện
         + PD (Powered Device)
-        → Device that receives power (AP, camera, etc.)
+            → Thiết bị nhận điện (AP, camera, v.v.)
 
-- Simple procedure:
-    * The switch checks if the device supports PoE.
-    * If yes → supply power.
-    * If no → do not supply power (to avoid fire).
+---
 
-- This “identification” uses:
-    * Cisco Discovery Protocol (Cisco)
-    * Link Layer Discovery Protocol (common standard)
+- Quy trình đơn giản:
+    * Switch kiểm tra thiết bị có hỗ trợ PoE hay không
+    * Nếu có → cấp nguồn
+    * Nếu không → không cấp nguồn (tránh cháy thiết bị)
 
-- Standard PoE
+---
+
+- Cơ chế nhận diện:
+    * Cisco Discovery Protocol (CDP) – của Cisco
+    * Link Layer Discovery Protocol (LLDP) – chuẩn chung
+
+---
+
+- Chuẩn PoE
 
 ![alt text](images/standard.png)
 
-- Inside PoE, PoE+, UPoE, UPoE+
+---
+
+- Các mức PoE (PoE / PoE+ / UPOE / UPOE+)
 
 ![alt text](images/inside.png)

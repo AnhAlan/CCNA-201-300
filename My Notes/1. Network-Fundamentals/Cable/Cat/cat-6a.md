@@ -1,0 +1,6 @@
+- Phiên bản nâng cấp của Cat6.
+- Băng thông: 500 MHz.
+- Hỗ trợ 10 Gbps ở khoảng cách đầy đủ 100 mét.
+- Chống nhiễu tốt hơn Cat6.
+- Dây to và cứng hơn Cat6.
+- Thường được sử dụng trong doanh nghiệp.

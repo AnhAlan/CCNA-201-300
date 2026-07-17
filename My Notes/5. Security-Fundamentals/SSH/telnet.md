@@ -1,20 +1,32 @@
-Telnet uses TCP port 23
-Data is plain text → can be captured by Wireshark
+# Telnet – TCP port 23
 
-1. Create User for Telnet Login
-# Normal user
-R1(config)# username annk secret ccna
+- Telnet sử dụng TCP port 23  
+- Data (dữ liệu) được truyền dạng plain text → có thể bị capture bằng Wireshark  
+- Telnet = giao thức truy cập từ xa không mã hóa (insecure)
 
-# Admin user (privilege 15)
-R1(config)# username annk privilege 15 secret ccna
+## 1. Create User for Telnet Login
 
-⚠ No need to configure hostname, domain name, or RSA key for Telnet. Those are only for SSH.
+- R1(config)# username annk secret ccna  
 
-2. config Telnet
-R1(config)# line vty 0 15
-R1(config-line)# login local             # only allow locally created users
-R1(config-line)# transport input telnet  # allow only Telnet access
+- R1(config)# username annk privilege 15 secret ccna  
 
-# Key Notes
-Telnet does not encrypt data → insecure
-SSH is preferred for secure remote management
++ Normal user = user thường  
++ privilege 15 = quyền admin cao nhất  
+
+- Không cần hostname, domain name, RSA key  
++ Các bước đó chỉ dùng cho SSH
+
+## 2. Configure Telnet (VTY lines)
+
+- R1(config)# line vty 0 15  
+- R1(config-line)# login local  
+- R1(config-line)# transport input telnet  
+
++ VTY = Virtual Terminal lines (cổng truy cập từ xa)  
++ login local = dùng user database local  
++ chỉ cho phép Telnet access  
+
+## Notes
+
+- Telnet không mã hóa dữ liệu → rất dễ bị sniff password  
+- SSH được ưu tiên dùng để quản trị từ xa an toàn hơn  

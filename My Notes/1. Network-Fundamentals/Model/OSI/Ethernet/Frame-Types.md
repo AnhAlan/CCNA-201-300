@@ -1,28 +1,28 @@
 ## Ethernet Frame Types
 
 - **Unicast**
-  - One sender → one receiver
-  - Switch forwards to specific port
+    - Một thiết bị gửi → một thiết bị nhận
+    - Switch sẽ chuyển frame đến đúng port tương ứng
 
 - **Broadcast**
-  - One sender → all devices
-  - Destination MAC: FF:FF:FF:FF:FF:FF
+    - Một thiết bị gửi → tất cả thiết bị trong mạng
+    - Destination MAC: FF:FF:FF:FF:FF:FF
 
 - **Multicast**
-  - One sender → group of devices
+    - Một thiết bị gửi → một nhóm thiết bị
 
 - **Unknown Unicast**
-  - Destination MAC not in MAC table
-  - Switch will **flood** frame
+    - MAC đích không có trong bảng MAC của switch
+    - Switch sẽ **flood** frame ra tất cả các port
 
 ---
 
 ## Switching Actions
 
 - **Forward**
-  - Known unicast → send to correct port
+    - Unicast đã biết → gửi đúng port đích
 
 - **Flood**
-  - Unknown unicast → send out all ports (except incoming)
-  - Broadcast → send out all ports
-  - Multicast → usually flooded (unless optimized)
+    - Unknown unicast → gửi ra tất cả port (trừ port nhận vào)
+    - Broadcast → gửi ra tất cả port
+    - Multicast → thường bị flood (nếu không có tối ưu như IGMP snooping)

@@ -1,17 +1,18 @@
-1. loopback interface
-    It's a virtual interface on the router/switch.
-    It's not connected to any physical hardware → it's always up if configured.
-    Used for:
-    Remote device management (e.g., SSH/Telnet)
-    Providing a stable IP source for routing protocols (OSPF, BGP, etc.)
-    ex:
-    Router(config)# interface loopback0
-    Router(config-if)# ip address 10.1.1.1 255.255.255.0
+- 1. Loopback interface
+    - Là một interface ảo trên router/switch.
+    - Không kết nối với phần cứng vật lý → luôn ở trạng thái up nếu được cấu hình.
+    - Dùng cho:
+        + Quản lý thiết bị từ xa (SSH/Telnet)
+        + Cung cấp IP ổn định cho các giao thức định tuyến (OSPF, BGP, v.v.)
 
-2. loopback address
-    This is a special IP address used for self-referencing devices.
-    Standard range: 127.0.0.0/8, most common is 127.0.0.1.
-    Used for:
-    + Testing the TCP/IP stack (ping 127.0.0.1)
-    + Testing internal services that do not go to the external network
-    + It is not necessarily assigned to the loopback interface, but it is common to assign 127.0.0.1 or 127.x.x.x to this interface.
+    - Ví dụ:
+        + Router(config)# interface loopback0
+        + Router(config-if)# ip address 10.1.1.1 255.255.255.0
+
+- 2. Loopback address
+    - Là một địa chỉ IP đặc biệt dùng để tự tham chiếu chính thiết bị.
+    - Dải chuẩn: 127.0.0.0/8, phổ biến nhất là 127.0.0.1.
+    - Dùng cho:
+        + Kiểm tra TCP/IP stack (ping 127.0.0.1)
+        + Kiểm tra dịch vụ nội bộ không đi ra mạng ngoài
+        + Không nhất thiết phải gán cho loopback interface, nhưng thường gán 127.0.0.1 hoặc dải 127.x.x.x cho interface này

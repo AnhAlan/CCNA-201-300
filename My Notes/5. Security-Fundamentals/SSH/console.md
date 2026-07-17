@@ -1,8 +1,7 @@
-- By default, console access does not require a password. It’s recommended to set one for security.
+- Theo mặc định, truy cập console không yêu cầu mật khẩu. Tuy nhiên, nên đặt mật khẩu để tăng bảo mật  
 
-R1(config)# line console 0      # only one physical console port
-R1(config-line)# password ccna   # set console password
-R1(config-line)# login           # enable authentication for console login
+- R1(config)# line console 0      # chỉ có 1 console port vật lý  
+- R1(config-line)# password ccna   # đặt mật khẩu cho console  
+- R1(config-line)# login           # bật xác thực khi đăng nhập console  
 
-- After this, anyone accessing the console port must enter the password ccna.
-
+- Sau khi cấu hình, bất kỳ ai truy cập console đều phải nhập mật khẩu ccna  

@@ -1,0 +1,7 @@
+- Phiên bản nâng cấp của Cat5.
+- Giảm nhiễu xuyên âm (Crosstalk).
+- Hỗ trợ Gigabit Ethernet (1000Base-T).
+- Tốc độ tối đa: 1 Gbps.
+- Băng thông: 100 MHz.
+- Khoảng cách tối đa: 100 mét.
+- Hiện nay vẫn rất phổ biến trong gia đình và văn phòng nhỏ.

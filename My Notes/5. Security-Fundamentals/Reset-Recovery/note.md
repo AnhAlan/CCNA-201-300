@@ -1,59 +1,92 @@
-- When to Reset / Recovery
-Forgot password → cannot login console or VTY lines
-Device misconfiguration → cannot function properly
-Delete all configuration → reset to default settings
-Upgrade / downgrade IOS
+- Khi nào cần Reset / Recovery  
+- Quên mật khẩu → không thể đăng nhập console hoặc VTY lines  
 
-1. Reload
-Router# reload
-- Device restarts but keeps current configuration.
+- Thiết bị bị cấu hình sai → không hoạt động đúng chức năng  
+- Xóa toàn bộ cấu hình → đưa về trạng thái mặc định  
 
-2. Remove the default settings.
-Router# write erase       # or erase startup-config
-Router# reload
+- Nâng cấp / hạ cấp IOS  
 
-Device boots without any configuration
-VTY, VLAN, IP → reset to default
+---
 
-3. Password Recovery / login ROMMON
-- Turn the device off and then back on (Unplug the appliance and plug it back in).
-- Press repeatedly "Ctrl + Break" (or only "break") when device start boot 
-(Note: On laptops using a console adapter, this might be "Ctrl + Fn + B")
-- device login ROMMON mode
+1. Reload  
+- Router# reload  
+- Thiết bị khởi động lại nhưng vẫn giữ cấu hình hiện tại  
 
-rommon 1 > 
+---
 
-rommon 2 > dir flash: // Check if startup-config still exists:
-         File size           Checksum   File name
- 486899872 bytes (0x1d0580a0) 0x9da5    isr4300-universalk9.16.06.04.SPA.bin
-     28282 bytes (0x6e7a)     0x6e7a    sigdef-category.xml
-    227537 bytes (0x378d1)    0x78d4    sigdef-default.xml
-rommon 3 > 
+2. Xóa cấu hình đã lưu (startup-config)  
+- Router# write erase  # hoặc erase startup-config  
+- Router# reload  
+- Thiết bị khởi động lại không còn cấu hình  
+- VTY, VLAN, IP → trở về mặc định  
 
-rommon 4 > confreg 0x2142 // Skip Startup-config during boot.
-rommon 5 > reset
+---
 
-- When iOS starts up, you are in privileged EXEC mode without a password.
-Router> enable
-Router# copy startup-config running-config
+3. Khôi phục mật khẩu / ROMMON  
+- Tắt thiết bị rồi bật lại (rút điện và cắm lại)  
+- Nhấn liên tục Ctrl + Break khi boot  
+- (Laptop có thể dùng Ctrl + Fn + B)  
+- Vào chế độ ROMMON  
 
-- Change password:
-Router(config)# enable secret 1234
-Router(config)# username annk secret ccna
+---
 
-- Restore normal boot configuration
-Reset ROMMON configuration values:
-Router(config)# config-register 0x2102
+- rommon 1 >  
+- rommon 2 > dir flash:  
+- Kiểm tra file startup-config còn hay không  
 
-- Save the configuration and reload:
-Router# write memory
-Router# reload
-Device boots with old configuration + new password
+- File size / Checksum / File name  
+- Kích thước file / mã kiểm tra / tên file  
 
-✅ Notes
-0x2142 → skip startup-config
-0x2102 → normal boot, read startup-config
-Always backup configuration before reset/recovery
+- isr4300-universalk9.16.06.04.SPA.bin → file hệ điều hành IOS  
+- sigdef-category.xml → file chữ ký hệ thống  
+- sigdef-default.xml → file chữ ký mặc định  
 
-That means we enter confreg 0x2142 to skip the startup configuration → after reloading, we can access the existing configuration, change the password, and restore the normal boot configuration.
-login rommon mode -> confreg 0x0142 to skip startup config -> reload -> login config without password -> change password -> enable startup config again
+---
+
+- rommon 4 > confreg 0x2142  
+- Bỏ qua startup-config khi khởi động  
+
+- rommon 5 > reset  
+- Khởi động lại thiết bị  
+
+---
+
+- Khi IOS khởi động → vào privileged EXEC mode không cần mật khẩu  
+- Router> enable  
+- Router# copy startup-config running-config  
+- Nạp lại cấu hình cũ vào RAM  
+
+---
+
+- Đổi mật khẩu  
+- Router(config)# enable secret 1234  
+- Router(config)# username annk secret ccna  
+
+---
+
+- Khôi phục chế độ boot bình thường  
+- Router(config)# config-register 0x2102  
+- Trở lại chế độ boot mặc định (đọc startup-config)  
+
+---
+
+- Lưu cấu hình và khởi động lại  
+- Router# write memory  
+- Router# reload  
+- Thiết bị chạy lại với cấu hình cũ + mật khẩu mới  
+
+---
+
+- Ghi chú quan trọng  
+- 0x2142 → bỏ qua startup-config khi boot  
+- 0x2102 → boot bình thường, đọc startup-config  
+- Luôn backup cấu hình trước khi reset  
+
+---
+
+- Ý tưởng quy trình  
+- confreg 0x2142 → bỏ qua cấu hình khi khởi động  
+- reload → vào hệ thống không cần mật khẩu  
+- copy startup-config → khôi phục cấu hình cũ  
+- đổi mật khẩu → bảo mật lại hệ thống  
+- config-register 0x2102 → quay lại chế độ boot bình thường  
